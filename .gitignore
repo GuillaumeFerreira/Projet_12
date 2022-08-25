@@ -1,9 +1,7 @@
 .gitignore
 .idea
 .gitattributes
-Litreview\env\
 .idea\
-Litreview\env
 *.pyc
 __pycache__
 *.jpg
