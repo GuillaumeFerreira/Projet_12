@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
-
+from datetime import timedelta
+from rest_framework.settings import api_settings
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "tests",
     "crm",
+    "rest_framework_simplejwt",
 ]
 
 MIDDLEWARE = [
@@ -128,3 +130,29 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+REST_FRAMEWORK = {
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    "PAGE_SIZE": 100,
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.BasicAuthentication",
+        "rest_framework.authentication.SessionAuthentication",
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+    ],
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+    ],
+}
+REST_DURIN = {
+    "DEFAULT_TOKEN_TTL": timedelta(days=1),
+    "TOKEN_CHARACTER_LENGTH": 64,
+    "USER_SERIALIZER": None,
+    "AUTH_HEADER_PREFIX": "Token",
+    "EXPIRY_DATETIME_FORMAT": api_settings.DATETIME_FORMAT,
+    "TOKEN_CACHE_TIMEOUT": 6000,
+    "REFRESH_TOKEN_ON_LOGIN": False,
+    "AUTHTOKEN_SELECT_RELATED_LIST": ["user"],
+    "API_ACCESS_CLIENT_NAME": None,
+    "API_ACCESS_EXCLUDE_FROM_SESSIONS": False,
+    "API_ACCESS_RESPONSE_INCLUDE_TOKEN": False,
+}
