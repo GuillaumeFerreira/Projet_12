@@ -19,6 +19,7 @@ class Employee(models.Model):
     date_update = models.DateTimeField(default=datetime.datetime.now())
 
 
+
 class Client(models.Model):
     id = models.BigAutoField(primary_key=True)
     first_name = models.CharField(max_length=25, default=" ")
@@ -29,6 +30,7 @@ class Client(models.Model):
     company_name = models.CharField(max_length=250, default=" ")
     date_created = models.DateTimeField(default=datetime.datetime.now())
     date_update = models.DateTimeField(default=datetime.datetime.now())
+    statuts_client = models.CharField(max_length=25, default=" ")
     employee_contact = models.ForeignKey(Employee, on_delete=models.CASCADE, default=1)
 
 
