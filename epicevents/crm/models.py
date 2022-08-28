@@ -1,6 +1,7 @@
 from django.db import models
 import datetime
 
+
 class Team(models.Model):
     id = models.BigAutoField(primary_key=True)
     type_team = models.CharField(max_length=128)
@@ -16,6 +17,7 @@ class Employee(models.Model):
     mobile = models.CharField(max_length=20, default=" ")
     date_created = models.DateTimeField(default=datetime.datetime.now())
     date_update = models.DateTimeField(default=datetime.datetime.now())
+
 
 class Client(models.Model):
     id = models.BigAutoField(primary_key=True)
@@ -34,7 +36,7 @@ class Contract(models.Model):
     id = models.BigAutoField(primary_key=True)
     employee_contact = models.ForeignKey(Employee, on_delete=models.CASCADE, default=1)
     client = models.OneToOneField(Client, on_delete=models.CASCADE, default=1)
-    date_created = models.DateTimeField( default=datetime.datetime.now())
+    date_created = models.DateTimeField(default=datetime.datetime.now())
     date_update = models.DateTimeField(default=datetime.datetime.now())
     status = models.BooleanField(default=False)
     amount = models.FloatField(default=10.2)
@@ -46,13 +48,12 @@ class Event(models.Model):
     client = models.OneToOneField(Client, on_delete=models.CASCADE, default=1)
     date_created = models.DateTimeField(default=datetime.datetime.now())
     date_update = models.DateTimeField(default=datetime.datetime.now())
-    employee_contact = models.ForeignKey(Employee, on_delete=models.CASCADE, related_name="sales_contact", default=1)
-    employee_event = models.ForeignKey(Employee, on_delete=models.CASCADE, related_name="event_contact", default=1)
+    employee_contact = models.ForeignKey(
+        Employee, on_delete=models.CASCADE, related_name="sales_contact", default=1
+    )
+    employee_event = models.ForeignKey(
+        Employee, on_delete=models.CASCADE, related_name="event_contact", default=1
+    )
     event_date = models.DateTimeField(default=datetime.datetime.now())
     notes = models.TextField(max_length=8192, blank=True)
     attendees = models.IntegerField(default=200)
-
-
-
-
-

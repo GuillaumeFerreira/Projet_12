@@ -4,8 +4,6 @@ import pytest
 from pytest_django.asserts import assertTemplateUsed
 
 
-
-def test_url():
-    client = Client()
-    response = client.get("client.html")
-    assert response.status_code == 404
+def test_admin(client):
+    response = client.get("/")
+    assert response.status_code == 200

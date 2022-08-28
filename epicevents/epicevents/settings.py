@@ -37,10 +37,9 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'rest_framework',
-    'tests',
-    'crm',
-
+    "rest_framework",
+    "tests",
+    "crm",
 ]
 
 MIDDLEWARE = [
@@ -78,23 +77,14 @@ WSGI_APPLICATION = "epicevents.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-
-    'default': {
-
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-
-        'NAME': 'crm',
-
-        'USER': 'postgres',
-
-        'PASSWORD': 'Guillaume@',
-
-        'HOST': 'localhost',
-
-        'PORT': '5432',
-
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "crm",
+        "USER": "postgres",
+        "PASSWORD": "Guillaume@",
+        "HOST": "localhost",
+        "PORT": "5432",
     }
-
 }
 
 
