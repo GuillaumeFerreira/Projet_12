@@ -135,27 +135,12 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 REST_FRAMEWORK = {
-    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
-    "PAGE_SIZE": 100,
     "DEFAULT_AUTHENTICATION_CLASSES": [
-        "rest_framework.authentication.BasicAuthentication",
-        "rest_framework.authentication.SessionAuthentication",
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ],
-    "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.IsAuthenticated",
-    ],
+
 }
-REST_DURIN = {
-    "DEFAULT_TOKEN_TTL": timedelta(days=1),
-    "TOKEN_CHARACTER_LENGTH": 64,
-    "USER_SERIALIZER": None,
-    "AUTH_HEADER_PREFIX": "Token",
-    "EXPIRY_DATETIME_FORMAT": api_settings.DATETIME_FORMAT,
-    "TOKEN_CACHE_TIMEOUT": 6000,
-    "REFRESH_TOKEN_ON_LOGIN": False,
-    "AUTHTOKEN_SELECT_RELATED_LIST": ["user"],
-    "API_ACCESS_CLIENT_NAME": None,
-    "API_ACCESS_EXCLUDE_FROM_SESSIONS": False,
-    "API_ACCESS_RESPONSE_INCLUDE_TOKEN": False,
-}
+
+
+# use our own user model
+AUTH_USER_MODEL = "crm.Employee"

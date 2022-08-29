@@ -1,4 +1,3 @@
-
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
 from . import models, serializers
@@ -11,24 +10,12 @@ class ClientsViewset(ModelViewSet):
     queryset = models.Client.objects.all()
 
 
-class EmployeeViewset(ModelViewSet):
-
-    permission_classes = [IsAuthenticated]
-    serializer_class = serializers.EmployeeSerializer
-    queryset = models.Employee.objects.all()
-
-
-class TeamViewset(ModelViewSet):
-
-    permission_classes = [IsAuthenticated]
-    serializer_class = serializers.TeamSerializer
-    queryset = models.Team.objects.all()
-
 class ContractViewset(ModelViewSet):
 
     permission_classes = [IsAuthenticated]
     serializer_class = serializers.ContractSerializer
     queryset = models.Contract.objects.all()
+
 
 class EventViewset(ModelViewSet):
 

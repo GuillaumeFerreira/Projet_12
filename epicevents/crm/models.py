@@ -1,22 +1,20 @@
 from django.db import models
 import datetime
+from django.contrib.auth.models import AbstractUser
 
+ROLE = [
+    ('MANAGER', 'MANAGER'),
+    ('COMMERCIAL', 'COMMERCIAL'),
+    ('SUPPORT', 'SUPPORT'),
+]
+STATUT_CLIENT =  [
+    ('POTENTIEL', 'POTENTIEL'),
+    ('EXISTANT', 'EXISTANT'),
+]
+class Employee(AbstractUser):
 
-class Team(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    type_team = models.CharField(max_length=128)
-
-
-class Employee(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    team = models.ForeignKey(Team, on_delete=models.CASCADE, default=1)
-    first_name = models.CharField(max_length=25, default=" ")
-    last_name = models.CharField(max_length=25, default=" ")
-    email = models.CharField(max_length=100, default=" ")
-    phone = models.CharField(max_length=20, default=" ")
-    mobile = models.CharField(max_length=20, default=" ")
-    date_created = models.DateTimeField(default=datetime.datetime.now())
-    date_update = models.DateTimeField(default=datetime.datetime.now())
+    phone = models.CharField(max_length=128, default="null")
+    role = models.CharField(choices=ROLE, max_length=128, default="MANAGER")
 
 
 
@@ -30,7 +28,7 @@ class Client(models.Model):
     company_name = models.CharField(max_length=250, default=" ")
     date_created = models.DateTimeField(default=datetime.datetime.now())
     date_update = models.DateTimeField(default=datetime.datetime.now())
-    statuts_client = models.CharField(max_length=25, default=" ")
+    statuts_client = models.CharField(choices=STATUT_CLIENT, max_length=25, default="POTENTIEL")
     employee_contact = models.ForeignKey(Employee, on_delete=models.CASCADE, default=1)
 
 
