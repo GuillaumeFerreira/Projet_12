@@ -11,7 +11,7 @@ class ClientsViewset(ModelViewSet):
     permission_classes = [IsAuthenticated]
     serializer_class = serializers.ClientsSerializer
     queryset = models.Client.objects.all()
-    logger.info('test')
+    logger.error('test log')
 
 
 class ContractViewset(ModelViewSet):
