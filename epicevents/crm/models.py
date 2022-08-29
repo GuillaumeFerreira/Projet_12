@@ -7,6 +7,7 @@ ROLE = [
     ('COMMERCIAL', 'COMMERCIAL'),
     ('SUPPORT', 'SUPPORT'),
 ]
+
 STATUT_CLIENT =  [
     ('POTENTIEL', 'POTENTIEL'),
     ('EXISTANT', 'EXISTANT'),
