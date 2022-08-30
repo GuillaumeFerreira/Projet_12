@@ -46,14 +46,14 @@ class Contract(models.Model):
 
 class Event(models.Model):
 
-    client = models.ForeignKey(Client, on_delete=models.CASCADE, related_name='event')
+    contract = models.ForeignKey(Contract, on_delete=models.CASCADE, related_name='event')
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
     employee_contact = models.ForeignKey(
-        Employee, on_delete=models.CASCADE, related_name="sales_contact", default=1
+        Employee, on_delete=models.DO_NOTHING, related_name="sales_contact", default=1
     )
     employee_event = models.ForeignKey(
-        Employee, on_delete=models.CASCADE, related_name="event_contact", default=1
+        Employee, on_delete=models.DO_NOTHING, related_name="event_contact", default=1
     )
     event_date = models.DateTimeField()
     notes = models.TextField(max_length=8192, blank=True)
