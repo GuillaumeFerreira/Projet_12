@@ -1,5 +1,4 @@
 from django.db import models
-import datetime
 from django.contrib.auth.models import AbstractUser
 
 ROLE = [
@@ -19,6 +18,14 @@ class Employee(AbstractUser):
     phone = models.CharField(max_length=128, blank=True)
     role = models.CharField(choices=ROLE, max_length=128, default="MANAGER")
 
+    #Pour crypter le mot de pass une fois créer ou modifier
+    #Hypothèse : Si il ne fait pas 88 c'est qu il n'est pas crypter
+    def save(self, *args, **kwargs):
+        user = super(Employee, self)
+        if len(user.password) != 88:
+            user.set_password(self.password)
+        user.save()
+        return user
 
 class Client(models.Model):
 
@@ -40,7 +47,7 @@ class Client(models.Model):
 
 class Contract(models.Model):
 
-    employee_contact = models.ForeignKey(Employee, on_delete=models.CASCADE, default=1)
+    employee_contact = models.ForeignKey(Employee, on_delete=models.DO_NOTHING, default=1)
     client = models.ForeignKey(
         Client, on_delete=models.CASCADE, related_name="contract"
     )
@@ -58,9 +65,6 @@ class Event(models.Model):
     )
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
-    employee_contact = models.ForeignKey(
-        Employee, on_delete=models.DO_NOTHING, related_name="sales_contact", default=1
-    )
     employee_event = models.ForeignKey(
         Employee, on_delete=models.DO_NOTHING, related_name="event_contact", default=1
     )
