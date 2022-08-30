@@ -20,13 +20,13 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 from rest_framework import routers
-from crm.views import (ClientsViewset, ContractViewset, EventViewset)
+from crm.views import ClientsViewset, ContractViewset, EventViewset
 
 # Ici nous créons notre routeur
 router = routers.SimpleRouter()
-router.register("clients",ClientsViewset,basename="clients")
-router.register("contract",ContractViewset,basename="contract")
-router.register("events",EventViewset,basename="events")
+router.register("clients", ClientsViewset, basename="clients")
+router.register("contract", ContractViewset, basename="contract")
+router.register("events", EventViewset, basename="events")
 
 urlpatterns = [
     path("admin/", admin.site.urls),

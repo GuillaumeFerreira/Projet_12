@@ -3,20 +3,21 @@ import datetime
 from django.contrib.auth.models import AbstractUser
 
 ROLE = [
-    ('MANAGER', 'MANAGER'),
-    ('COMMERCIAL', 'COMMERCIAL'),
-    ('SUPPORT', 'SUPPORT'),
+    ("MANAGER", "MANAGER"),
+    ("COMMERCIAL", "COMMERCIAL"),
+    ("SUPPORT", "SUPPORT"),
 ]
 
-STATUT_CLIENT =  [
-    ('POTENTIEL', 'POTENTIEL'),
-    ('EXISTANT', 'EXISTANT'),
+STATUT_CLIENT = [
+    ("POTENTIEL", "POTENTIEL"),
+    ("EXISTANT", "EXISTANT"),
 ]
+
+
 class Employee(AbstractUser):
 
     phone = models.CharField(max_length=128, blank=True)
     role = models.CharField(choices=ROLE, max_length=128, default="MANAGER")
-
 
 
 class Client(models.Model):
@@ -29,14 +30,20 @@ class Client(models.Model):
     company_name = models.CharField(max_length=250, blank=True)
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
-    statuts_client = models.CharField(choices=STATUT_CLIENT, max_length=25, default="POTENTIEL")
-    employee_contact = models.ForeignKey(Employee, on_delete=models.DO_NOTHING, blank=True, null=True)
+    statuts_client = models.CharField(
+        choices=STATUT_CLIENT, max_length=25, default="POTENTIEL"
+    )
+    employee_contact = models.ForeignKey(
+        Employee, on_delete=models.DO_NOTHING, blank=True, null=True
+    )
 
 
 class Contract(models.Model):
 
     employee_contact = models.ForeignKey(Employee, on_delete=models.CASCADE, default=1)
-    client = models.ForeignKey(Client, on_delete=models.CASCADE, related_name='contract')
+    client = models.ForeignKey(
+        Client, on_delete=models.CASCADE, related_name="contract"
+    )
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
     status = models.BooleanField(default=False)
@@ -46,7 +53,9 @@ class Contract(models.Model):
 
 class Event(models.Model):
 
-    contract = models.ForeignKey(Contract, on_delete=models.CASCADE, related_name='event')
+    contract = models.ForeignKey(
+        Contract, on_delete=models.CASCADE, related_name="event"
+    )
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
     employee_contact = models.ForeignKey(
