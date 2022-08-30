@@ -19,6 +19,6 @@ class ContractViewset(ModelViewSet):
 
 class EventViewset(ModelViewSet):
 
-    permission_classes = (IsAuthenticated, permissions.EventPermissions )
+    permission_classes = (IsAuthenticated, permissions.EventPermissions)
     serializer_class = serializers.EventSerializer
     queryset = models.Event.objects.all()
