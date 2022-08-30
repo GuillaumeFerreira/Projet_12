@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    'django_filters',
     "rest_framework",
     "tests",
     "crm",
@@ -139,12 +140,13 @@ REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.IsAuthenticated",
     ],
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
 }
 
 
 # use our own user model
 AUTH_USER_MODEL = "crm.Employee"
-
+"""
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
@@ -163,3 +165,4 @@ LOGGING = {
         },
     },
 }
+"""

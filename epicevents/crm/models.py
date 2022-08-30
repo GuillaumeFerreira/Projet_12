@@ -17,7 +17,7 @@ class Employee(AbstractUser):
 
     phone = models.CharField(max_length=128, blank=True)
     role = models.CharField(choices=ROLE, max_length=128, default="MANAGER")
-
+    is_staff = models.BooleanField(default=True)
     #Pour crypter le mot de pass une fois créer ou modifier
     #Hypothèse : Si il ne fait pas 88 c'est qu il n'est pas crypter
     def save(self, *args, **kwargs):
@@ -62,6 +62,9 @@ class Event(models.Model):
 
     contract = models.ForeignKey(
         Contract, on_delete=models.CASCADE, related_name="event"
+    )
+    client = models.ForeignKey(
+        Client, on_delete=models.CASCADE, related_name="client_event"
     )
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
