@@ -7,4 +7,4 @@ __pycache__
 *.jpg
 env\
 env
-*.log
+debug.log
