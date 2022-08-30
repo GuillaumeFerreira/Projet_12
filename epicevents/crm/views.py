@@ -1,9 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
 from . import models, serializers
-import logging
-
-logger = logging.getLogger(__name__)
 
 
 class ClientsViewset(ModelViewSet):
@@ -11,7 +8,6 @@ class ClientsViewset(ModelViewSet):
     permission_classes = [IsAuthenticated]
     serializer_class = serializers.ClientsSerializer
     queryset = models.Client.objects.all()
-    logger.error('test log')
 
 
 class ContractViewset(ModelViewSet):
