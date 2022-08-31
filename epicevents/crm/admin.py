@@ -17,6 +17,7 @@ class EventAdmin(admin.ModelAdmin):
 
 class ContractAdmin(admin.ModelAdmin):
 
+    #affichage sur page admin
     def has_change_permission(self, request):
 
         if request.user.role == "COMMERCIAL":
