@@ -66,7 +66,20 @@ class ContractAdmin(admin.ModelAdmin):
         qs = super().get_queryset(request)
         return qs.filter(employee_contact=request.user)
 
+
+class EmployeeAdmin(admin.ModelAdmin):
+
+    def has_module_permission(self,request):
+        try:
+            if request.user.role == "MANAGER":
+                return True
+            else:
+                return False
+        except:
+            return False
+
+
 admin.site.register(models.Client,ClientAdmin)
 admin.site.register(models.Contract,ContractAdmin)
 admin.site.register(models.Event,EventAdmin)
-admin.site.register(models.Employee)
+admin.site.register(models.Employee,EmployeeAdmin)
