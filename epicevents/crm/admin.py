@@ -11,13 +11,23 @@ class EventAdmin(admin.ModelAdmin):
             return True
         else:
             return False
+
+    def has_module_permission(self,request):
+        try:
+            if request.user.role in ("COMMERCIAL","SUPPORT"):
+                return True
+            else:
+                return False
+        except:
+            return False
+
     def get_queryset(self, request):
         qs = super().get_queryset(request)
         return qs.filter(employee_event=request.user)
 
 class ContractAdmin(admin.ModelAdmin):
 
-    #affichage sur page admin
+
     def has_change_permission(self, request):
 
         if request.user.role == "COMMERCIAL":
@@ -25,6 +35,7 @@ class ContractAdmin(admin.ModelAdmin):
         else:
             return False
 
+    # affichage sur page admin
     def has_module_permission(self,request):
         try:
             if request.user.role == "COMMERCIAL":
