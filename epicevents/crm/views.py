@@ -28,8 +28,4 @@ class EventViewset(ModelViewSet):
     queryset = models.Event.objects.all()
 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['event_date']
-
-
-
-
+    filterset_fields = ["event_date"]

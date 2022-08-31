@@ -18,14 +18,15 @@ class Employee(AbstractUser):
     phone = models.CharField(max_length=128, blank=True)
     role = models.CharField(choices=ROLE, max_length=128, default="MANAGER")
     is_staff = models.BooleanField(default=True)
-    #Pour crypter le mot de pass une fois créer ou modifier
-    #Hypothèse : Si il ne fait pas 88 c'est qu il n'est pas crypter
+    # Pour crypter le mot de pass une fois créer ou modifier
+    # Hypothèse : Si il ne fait pas 88 c'est qu il n'est pas crypter
     def save(self, *args, **kwargs):
         user = super(Employee, self)
         if len(user.password) != 88:
             user.set_password(self.password)
         user.save()
         return user
+
 
 class Client(models.Model):
 
@@ -47,7 +48,9 @@ class Client(models.Model):
 
 class Contract(models.Model):
 
-    employee_contact = models.ForeignKey(Employee, on_delete=models.DO_NOTHING, default=1)
+    employee_contact = models.ForeignKey(
+        Employee, on_delete=models.DO_NOTHING, default=1
+    )
     client = models.ForeignKey(
         Client, on_delete=models.CASCADE, related_name="contract"
     )

@@ -2,9 +2,7 @@ from django.contrib import admin
 from . import models
 
 
-
 class ClientAdmin(admin.ModelAdmin):
-
     def has_change_permission(self, request):
         if request.user.is_superuser:
             return True
@@ -26,8 +24,11 @@ class ClientAdmin(admin.ModelAdmin):
                 return qs
         else:
             return qs
+
+
 class EventAdmin(admin.ModelAdmin):
-    list_display = ('id',  'notes', 'client', 'employee_event')
+    list_display = ("id", "notes", "client", "employee_event")
+
     def has_change_permission(self, request):
         if request.user.is_superuser:
             return True
@@ -37,12 +38,12 @@ class EventAdmin(admin.ModelAdmin):
             else:
                 return False
 
-    def has_module_permission(self,request):
+    def has_module_permission(self, request):
         if request.user.is_superuser:
             return True
         else:
             try:
-                if request.user.role in ("COMMERCIAL","SUPPORT"):
+                if request.user.role in ("COMMERCIAL", "SUPPORT"):
                     return True
                 else:
                     return False
@@ -53,9 +54,8 @@ class EventAdmin(admin.ModelAdmin):
         qs = super().get_queryset(request)
         return qs.filter(employee_event=request.user)
 
+
 class ContractAdmin(admin.ModelAdmin):
-
-
     def has_change_permission(self, request):
         if request.user.is_superuser:
             return True
@@ -66,7 +66,7 @@ class ContractAdmin(admin.ModelAdmin):
                 return False
 
     # affichage sur page admin
-    def has_module_permission(self,request):
+    def has_module_permission(self, request):
         if request.user.is_superuser:
             return True
         else:
@@ -83,10 +83,8 @@ class ContractAdmin(admin.ModelAdmin):
         return qs.filter(employee_contact=request.user)
 
 
-
 class EmployeeAdmin(admin.ModelAdmin):
-
-    def has_module_permission(self,request):
+    def has_module_permission(self, request):
         if request.user.is_superuser:
             return True
         else:
@@ -99,7 +97,7 @@ class EmployeeAdmin(admin.ModelAdmin):
                 return False
 
 
-admin.site.register(models.Client,ClientAdmin)
-admin.site.register(models.Contract,ContractAdmin)
-admin.site.register(models.Event,EventAdmin)
-admin.site.register(models.Employee,EmployeeAdmin)
+admin.site.register(models.Client, ClientAdmin)
+admin.site.register(models.Contract, ContractAdmin)
+admin.site.register(models.Event, EventAdmin)
+admin.site.register(models.Employee, EmployeeAdmin)
