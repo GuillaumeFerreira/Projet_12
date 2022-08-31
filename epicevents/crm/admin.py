@@ -1,42 +1,53 @@
 from django.contrib import admin
 from . import models
-from django.urls import reverse
+
 
 
 class ClientAdmin(admin.ModelAdmin):
 
     def has_change_permission(self, request):
-        if request.user.role == "COMMERCIAL":
+        if request.user.is_superuser:
+            return True
+        elif request.user.role == "COMMERCIAL":
             return True
         else:
             return False
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)
-        if request.user.role == "COMMERCIAL":
-            return qs.filter(employee_contact=request.user)
-        elif request.user.role == "SUPPORT":
-            event = models.Events.objects.get(employee_event=request.user)
-            return qs.filter(client_id=event.client)
+        if not request.user.is_superuser:
+
+            if request.user.role == "COMMERCIAL":
+                return qs.filter(employee_contact=request.user)
+            elif request.user.role == "SUPPORT":
+                event = models.Events.objects.get(employee_event=request.user)
+                return qs.filter(client_id=event.client)
+            else:
+                return qs
         else:
             return qs
-
 class EventAdmin(admin.ModelAdmin):
     list_display = ('id',  'notes', 'client', 'employee_event')
     def has_change_permission(self, request):
-        if request.user.role == "SUPPORT":
+        if request.user.is_superuser:
             return True
         else:
-            return False
-
-    def has_module_permission(self,request):
-        try:
-            if request.user.role in ("COMMERCIAL","SUPPORT"):
+            if request.user.role == "SUPPORT":
                 return True
             else:
                 return False
-        except:
-            return False
+
+    def has_module_permission(self,request):
+        if request.user.is_superuser:
+            return True
+        else:
+            try:
+                if request.user.role in ("COMMERCIAL","SUPPORT"):
+                    return True
+                else:
+                    return False
+            except:
+                return False
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)
@@ -46,37 +57,46 @@ class ContractAdmin(admin.ModelAdmin):
 
 
     def has_change_permission(self, request):
-
-        if request.user.role == "COMMERCIAL":
+        if request.user.is_superuser:
             return True
         else:
-            return False
-
-    # affichage sur page admin
-    def has_module_permission(self,request):
-        try:
             if request.user.role == "COMMERCIAL":
                 return True
             else:
                 return False
-        except:
-            return False
+
+    # affichage sur page admin
+    def has_module_permission(self,request):
+        if request.user.is_superuser:
+            return True
+        else:
+            try:
+                if request.user.role == "COMMERCIAL":
+                    return True
+                else:
+                    return False
+            except:
+                return False
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)
         return qs.filter(employee_contact=request.user)
 
 
+
 class EmployeeAdmin(admin.ModelAdmin):
 
     def has_module_permission(self,request):
-        try:
-            if request.user.role == "MANAGER":
-                return True
-            else:
+        if request.user.is_superuser:
+            return True
+        else:
+            try:
+                if request.user.role == "MANAGER":
+                    return True
+                else:
+                    return False
+            except:
                 return False
-        except:
-            return False
 
 
 admin.site.register(models.Client,ClientAdmin)
