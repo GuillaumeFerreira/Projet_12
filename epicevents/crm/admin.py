@@ -83,7 +83,10 @@ class EventAdmin(admin.ModelAdmin):
 
     def get_queryset(self, request):
         qs = super().get_queryset(request)
-        return qs.filter(employee_event=request.user)
+        if request.user.is_superuser:
+            return qs
+        else:
+            return qs.filter(employee_event=request.user)
 
 
 class ContractAdmin(admin.ModelAdmin):
