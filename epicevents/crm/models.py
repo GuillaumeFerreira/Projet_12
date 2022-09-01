@@ -56,7 +56,7 @@ class Contract(models.Model):
     )
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
-    status = models.BooleanField(default=False)
+    signed = models.BooleanField(default=False)
     amount = models.FloatField()
     payment_due = models.DateTimeField()
 
