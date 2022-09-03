@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
+from django.contrib.auth.models import AbstractUser, Group
 
 ROLE = [
     ("MANAGER", "MANAGER"),
@@ -12,20 +12,18 @@ STATUT_CLIENT = [
     ("EXISTANT", "EXISTANT"),
 ]
 
+STATUS_EVENT = [
+    ("EN PREPARATION", "EN PREPARATION"),
+    ("EN COURS", "EN COURS"),
+    ("TERMINE", "TERMINE"),
+]
+
+
 
 class Employee(AbstractUser):
 
     phone = models.CharField(max_length=128, blank=True)
-    role = models.CharField(choices=ROLE, max_length=128, default="MANAGER")
-    is_staff = models.BooleanField(default=True)
-    # Pour crypter le mot de pass une fois créer ou modifier
-    # Hypothèse : Si il ne fait pas 88 c'est qu il n'est pas crypter
-    def save(self, *args, **kwargs):
-        user = super(Employee, self)
-        if len(user.password) != 88:
-            user.set_password(self.password)
-        user.save()
-        return user
+
 
 
 class Client(models.Model):
@@ -48,6 +46,7 @@ class Client(models.Model):
 
 class Contract(models.Model):
 
+    contract_name = models.CharField(max_length=128, blank=False, null=False)
     employee_contact = models.ForeignKey(
         Employee, on_delete=models.DO_NOTHING, default=1
     )
@@ -60,14 +59,16 @@ class Contract(models.Model):
     amount = models.FloatField()
     payment_due = models.DateTimeField()
 
+class Event_status(models.Model):
+    status = models.CharField(choices=STATUS_EVENT, max_length=128, default="EN PREPARATION")
 
 class Event(models.Model):
 
     contract = models.ForeignKey(
         Contract, on_delete=models.CASCADE, related_name="event"
     )
-    client = models.ForeignKey(
-        Client, on_delete=models.CASCADE, related_name="client_event"
+    event_status = models.ForeignKey(
+        Event_status, on_delete=models.CASCADE, related_name="status_event"
     )
     date_created = models.DateTimeField(auto_now_add=True)
     date_update = models.DateTimeField(auto_now=True)
@@ -77,3 +78,4 @@ class Event(models.Model):
     event_date = models.DateTimeField()
     notes = models.TextField(max_length=8192, blank=True)
     attendees = models.IntegerField()
+

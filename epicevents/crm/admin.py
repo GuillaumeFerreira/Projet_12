@@ -1,7 +1,7 @@
 from django.contrib import admin
 from . import models
 
-
+"""
 class ClientAdmin(admin.ModelAdmin):
 
     def has_change_permission(self, request,obj=None):
@@ -49,7 +49,7 @@ class ClientAdmin(admin.ModelAdmin):
 
 
 class EventAdmin(admin.ModelAdmin):
-    list_display = ("id", "notes", "client", "employee_event")
+    list_display = ("id", "notes", "employee_event")
 
     def has_change_permission(self, request, obj=None):
         if request.user.is_superuser:
@@ -166,9 +166,12 @@ class EmployeeAdmin(admin.ModelAdmin):
                     return False
             except:
                 return False
+"""
+class EventStatusAdmin(admin.ModelAdmin):
+    list_display = ["status"]
 
-
-admin.site.register(models.Client, ClientAdmin)
-admin.site.register(models.Contract, ContractAdmin)
-admin.site.register(models.Event, EventAdmin)
-admin.site.register(models.Employee, EmployeeAdmin)
+admin.site.register(models.Client)
+admin.site.register(models.Contract)
+admin.site.register(models.Event)
+admin.site.register(models.Employee)
+admin.site.register(models.Event_status,EventStatusAdmin)
