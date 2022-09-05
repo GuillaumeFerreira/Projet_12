@@ -47,8 +47,12 @@ class Contract(models.Model):
     amount = models.FloatField()
     payment_due = models.DateTimeField()
 
+
 class Event_status(models.Model):
-    status = models.CharField(choices=STATUS_EVENT, max_length=128, default="EN PREPARATION")
+    status = models.CharField(
+        choices=STATUS_EVENT, max_length=128, default="EN PREPARATION"
+    )
+
 
 class Event(models.Model):
 

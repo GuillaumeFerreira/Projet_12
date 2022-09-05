@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     "crm_api",
     "rest_framework_simplejwt",
     "rest_framework",
-    'django_filters',
-
+    "django_filters",
 ]
 
 MIDDLEWARE = [
@@ -164,7 +163,10 @@ LOGGING = {
         },
     },
     "formatters": {
-        "simple": {"format": "[%(asctime)s] %(levelname)s %(message)s", "datefmt": "%Y-%m-%d %H:%M:%S"},
+        "simple": {
+            "format": "[%(asctime)s] %(levelname)s %(message)s",
+            "datefmt": "%Y-%m-%d %H:%M:%S",
+        },
     },
     "handlers": {
         "console": {
