@@ -5,33 +5,44 @@ from . import models
 class ClientPermissions(permissions.BasePermission):
     #permissions list
     def has_permission(self, request, view):
-        # Utilisation de permissions.SAFE_METHODS, is a tuple containing 'GET', 'OPTIONS' and 'HEAD'
-        if request.method in permissions.SAFE_METHODS:
+        if request.method == "GET":
             return True
         else:
-            if request.user.role in ["MANAGER","COMMERCIAL"]:
+            if request.user.groups.filter(name='SUPPORT').exists():
+                return False
+            elif request.user.groups.filter(name='MANAGER').exists():
+                return True
+            elif request.user.groups.filter(name='MANAGER').exists():
                 return True
             else:
                 return False
     #permission detail
     def has_object_permission(self, request, view, obj):
-        if request.method in permissions.SAFE_METHODS:
-            if request.user.role == "SUPPORT":
+        if request.method == "GET":
+            if request.user.groups.filter(name='SUPPORT').exists():
                 event = models.Event.objects.filter(employee_event=request.user)
                 return obj == event
-            if request.user.role == "COMMERCIAL":
+            elif request.user.groups.filter(name='COMMERCIAL').exists():
                 return request.user == obj.employee_contact
-            else:
+            elif request.user.groups.filter(name='MANAGER').exists():
                 return True
-        elif request.method == "POST":
-            if request.user.role == "SUPPORT":
+            else:
                 return False
+        elif request.method == "POST":
+            if request.user.groups.filter(name='SUPPORT').exists():
+                return False
+            elif request.user.groups.filter(name='COMMERCIAL').exists():
+                return True
+            elif request.user.groups.filter(name='MANAGER').exists():
+                return True
             else:
                 return True
         else:
-            if request.user.role == "COMMERCIAL":
+            if request.user.groups.filter(name='COMMERCIAL').exists():
                 return request.user == obj.employee_contact
-            elif request.user.role == "SUPPORT":
+            elif request.user.groups.filter(name='SUPPORT').exists():
                 return False
+            elif request.user.groups.filter(name='MANAGER').exists():
+                return True
             else:
                 return True
