@@ -27,7 +27,7 @@ class ClientsViewset(ModelViewSet):
 
 class ContractViewset(ModelViewSet):
 
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated,permissions.ContractPermissions]
     serializer_class = serializers.ContractSerializer
     queryset = models.Contract.objects.all()
 
