@@ -10,7 +10,7 @@ class ClientPermissions(permissions.BasePermission):
         else:
             if request.user.groups.filter(name='SUPPORT').exists():
                 return False
-            elif request.user.groups.filter(name='MANAGER').exists():
+            elif request.user.groups.filter(name='COMMERCIAL').exists():
                 return True
             elif request.user.groups.filter(name='MANAGER').exists():
                 return True
@@ -91,7 +91,7 @@ class EventPermissions(permissions.BasePermission):
         else:
             if request.user.groups.filter(name='SUPPORT').exists():
                 return False
-            elif request.user.groups.filter(name='MANAGER').exists():
+            elif request.user.groups.filter(name='COMMERCIAL').exists():
                 return True
             elif request.user.groups.filter(name='MANAGER').exists():
                 return True

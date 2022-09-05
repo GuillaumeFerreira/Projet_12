@@ -105,3 +105,375 @@
 [2022-09-05 11:28:08] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
 [2022-09-05 11:28:11] INFO Watching for file changes with StatReloader
 [2022-09-05 11:28:11] INFO Watching for file changes with StatReloader
+[2022-09-05 11:30:39] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:30:39] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:30:43] INFO Watching for file changes with StatReloader
+[2022-09-05 11:30:43] INFO Watching for file changes with StatReloader
+[2022-09-05 11:36:08] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:36:08] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:36:10] INFO Watching for file changes with StatReloader
+[2022-09-05 11:36:10] INFO Watching for file changes with StatReloader
+[2022-09-05 11:36:17] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:36:17] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:36:17] ERROR Internal Server Error: /api/clients/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\renderers.py", line 634, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 81, in to_html
+    template = loader.get_template(self.template)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+[2022-09-05 11:36:17] ERROR Internal Server Error: /api/clients/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\renderers.py", line 702, in get_context
+    'filter_form': self.get_filter_form(data, view, request),
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\renderers.py", line 634, in get_filter_form
+    html = backend().to_html(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 81, in to_html
+    template = loader.get_template(self.template)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: django_filters/rest_framework/form.html
+[2022-09-05 11:36:17] ERROR "GET /api/clients/ HTTP/1.1" 500 108970
+[2022-09-05 11:36:17] ERROR "GET /api/clients/ HTTP/1.1" 500 108970
+[2022-09-05 11:36:58] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:36:58] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:37:02] INFO Watching for file changes with StatReloader
+[2022-09-05 11:37:02] INFO Watching for file changes with StatReloader
+[2022-09-05 11:37:11] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:37:11] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:37:11] INFO "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:37:11] INFO "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:37:18] INFO "GET /api-auth/logout/?next=/api/clients/ HTTP/1.1" 302 0
+[2022-09-05 11:37:18] INFO "GET /api-auth/logout/?next=/api/clients/ HTTP/1.1" 302 0
+[2022-09-05 11:37:18] WARNING Unauthorized: /api/clients/
+[2022-09-05 11:37:18] WARNING Unauthorized: /api/clients/
+[2022-09-05 11:37:18] WARNING "GET /api/clients/ HTTP/1.1" 401 5225
+[2022-09-05 11:37:18] WARNING "GET /api/clients/ HTTP/1.1" 401 5225
+[2022-09-05 11:37:19] INFO "GET /api-auth/login/?next=/api/clients/ HTTP/1.1" 200 2713
+[2022-09-05 11:37:19] INFO "GET /api-auth/login/?next=/api/clients/ HTTP/1.1" 200 2713
+[2022-09-05 11:37:23] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-05 11:37:23] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-05 11:37:23] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:37:23] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:37:23] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 11:37:23] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 11:58:04] INFO Watching for file changes with StatReloader
+[2022-09-05 11:58:04] INFO Watching for file changes with StatReloader
+[2022-09-05 12:01:57] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:01:57] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:02:00] INFO Watching for file changes with StatReloader
+[2022-09-05 12:02:00] INFO Watching for file changes with StatReloader
+[2022-09-05 12:02:11] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:02:11] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:02:12] INFO Watching for file changes with StatReloader
+[2022-09-05 12:02:12] INFO Watching for file changes with StatReloader
+[2022-09-05 12:02:20] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:02:20] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:02:21] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 12:02:21] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 12:03:16] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 12:03:16] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 12:03:18] INFO Watching for file changes with StatReloader
+[2022-09-05 12:03:18] INFO Watching for file changes with StatReloader
+[2022-09-05 12:03:22] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:03:22] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:03:22] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 12:03:22] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 12:05:02] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\permissions.py changed, reloading.
+[2022-09-05 12:05:02] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\permissions.py changed, reloading.
+[2022-09-05 12:05:03] INFO Watching for file changes with StatReloader
+[2022-09-05 12:05:03] INFO Watching for file changes with StatReloader
+[2022-09-05 12:05:33] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:05:33] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:05:34] INFO Watching for file changes with StatReloader
+[2022-09-05 12:05:34] INFO Watching for file changes with StatReloader
+[2022-09-05 12:05:37] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:05:37] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:05:38] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 12:05:38] INFO "GET /api/clients/ HTTP/1.1" 200 12497
+[2022-09-05 12:06:46] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:06:46] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:06:48] INFO Watching for file changes with StatReloader
+[2022-09-05 12:06:48] INFO Watching for file changes with StatReloader
+[2022-09-05 12:06:51] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:06:51] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:06:51] INFO "GET /api/clients/ HTTP/1.1" 200 13584
+[2022-09-05 12:06:51] INFO "GET /api/clients/ HTTP/1.1" 200 13584
+[2022-09-05 12:06:52] INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2022-09-05 12:06:52] INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2022-09-05 12:07:06] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:07:06] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:07:06] INFO "GET /api/clients/?first_name=Client_1 HTTP/1.1" 200 13190
+[2022-09-05 12:07:06] INFO "GET /api/clients/?first_name=Client_1 HTTP/1.1" 200 13190
+[2022-09-05 12:07:14] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:07:14] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:07:14] INFO "GET /api/clients/ HTTP/1.1" 200 13584
+[2022-09-05 12:07:14] INFO "GET /api/clients/ HTTP/1.1" 200 13584
+[2022-09-05 12:07:29] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:07:29] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:07:31] INFO Watching for file changes with StatReloader
+[2022-09-05 12:07:31] INFO Watching for file changes with StatReloader
+[2022-09-05 12:07:32] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:07:32] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:07:32] INFO "GET /api/clients/ HTTP/1.1" 200 13703
+[2022-09-05 12:07:32] INFO "GET /api/clients/ HTTP/1.1" 200 13703
+[2022-09-05 12:09:49] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:09:49] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:09:52] INFO Watching for file changes with StatReloader
+[2022-09-05 12:09:52] INFO Watching for file changes with StatReloader
+[2022-09-05 12:09:55] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:09:55] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:09:55] INFO "GET /api/contracts/ HTTP/1.1" 200 13176
+[2022-09-05 12:09:55] INFO "GET /api/contracts/ HTTP/1.1" 200 13176
+[2022-09-05 12:10:26] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:10:26] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:10:28] INFO Watching for file changes with StatReloader
+[2022-09-05 12:10:28] INFO Watching for file changes with StatReloader
+[2022-09-05 12:10:31] ERROR Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client.contract_name
+[2022-09-05 12:10:31] ERROR Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client.contract_name
+[2022-09-05 12:10:31] ERROR "GET /api/contracts/ HTTP/1.1" 500 130598
+[2022-09-05 12:10:31] ERROR "GET /api/contracts/ HTTP/1.1" 500 130598
+[2022-09-05 12:10:49] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:10:49] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:10:50] INFO Watching for file changes with StatReloader
+[2022-09-05 12:10:50] INFO Watching for file changes with StatReloader
+[2022-09-05 12:10:52] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 12:10:52] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 12:10:52] INFO "GET /api/contracts/ HTTP/1.1" 200 13061
+[2022-09-05 12:10:52] INFO "GET /api/contracts/ HTTP/1.1" 200 13061
+[2022-09-05 12:11:15] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:11:15] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:11:17] INFO Watching for file changes with StatReloader
+[2022-09-05 12:11:17] INFO Watching for file changes with StatReloader
+[2022-09-05 12:11:19] ERROR Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client.first_name
+[2022-09-05 12:11:19] ERROR Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client.first_name
+[2022-09-05 12:11:19] ERROR "GET /api/contracts/ HTTP/1.1" 500 130571
+[2022-09-05 12:11:19] ERROR "GET /api/contracts/ HTTP/1.1" 500 130571
+[2022-09-05 12:11:53] ERROR Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client.first_name
+[2022-09-05 12:11:53] ERROR Internal Server Error: /api/contracts/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\rest_framework\generics.py", line 150, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 68, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 20, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\rest_framework\backends.py", line 51, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 62, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django_filters\filterset.py", line 349, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: client.first_name
+[2022-09-05 12:11:53] ERROR "GET /api/contracts/ HTTP/1.1" 500 130571
+[2022-09-05 12:11:53] ERROR "GET /api/contracts/ HTTP/1.1" 500 130571
+[2022-09-05 12:11:53] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:11:53] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 12:11:55] INFO Watching for file changes with StatReloader
+[2022-09-05 12:11:55] INFO Watching for file changes with StatReloader
+[2022-09-05 14:12:55] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 14:12:55] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 14:12:59] INFO Watching for file changes with StatReloader
+[2022-09-05 14:12:59] INFO Watching for file changes with StatReloader

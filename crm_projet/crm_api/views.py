@@ -1,6 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
-from . import models, serializers, permissions
+from . import models, serializers, permissions, filters
+import django_filters.rest_framework
 #import logging
 
 #logger = logging.getLogger(__name__)
@@ -11,6 +12,8 @@ class ClientsViewset(ModelViewSet):
     permission_classes = [IsAuthenticated,permissions.ClientPermissions]
     serializer_class = serializers.ClientsSerializer
     queryset = models.Client.objects.all()
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['first_name','email']
 
     def get_queryset(self):
         queryset = super().get_queryset()
@@ -34,6 +37,9 @@ class ContractViewset(ModelViewSet):
     permission_classes = [IsAuthenticated, permissions.ContractPermissions]
     serializer_class = serializers.ContractSerializer
     queryset = models.Contract.objects.all()
+
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ['client','date_created','amount']
 
     def get_queryset(self):
         queryset = super().get_queryset()
