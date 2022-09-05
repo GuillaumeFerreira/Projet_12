@@ -53,7 +53,7 @@ class ContractPermissions(permissions.BasePermission):
     def has_permission(self, request, view):
         if request.user.groups.filter(name='SUPPORT').exists():
             return False
-        elif request.user.groups.filter(name='MANAGER').exists():
+        elif request.user.groups.filter(name='COMMERCIAL').exists():
              return True
         elif request.user.groups.filter(name='MANAGER').exists():
             return True
