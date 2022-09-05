@@ -1,11 +1,6 @@
 from django.db import models
-from django.contrib.auth.models import AbstractUser
+from management.models import Employee
 
-ROLE = [
-    ("MANAGER", "MANAGER"),
-    ("COMMERCIAL", "COMMERCIAL"),
-    ("SUPPORT", "SUPPORT"),
-]
 
 STATUT_CLIENT = [
     ("POTENTIEL", "POTENTIEL"),
@@ -17,16 +12,6 @@ STATUS_EVENT = [
     ("EN COURS", "EN COURS"),
     ("TERMINE", "TERMINE"),
 ]
-
-
-
-
-
-
-class Employee(AbstractUser):
-
-    phone = models.CharField(max_length=128, blank=True)
-
 
 
 class Client(models.Model):
@@ -81,4 +66,3 @@ class Event(models.Model):
     event_date = models.DateTimeField()
     notes = models.TextField(max_length=8192, blank=True)
     attendees = models.IntegerField()
-
