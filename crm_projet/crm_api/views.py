@@ -44,3 +44,19 @@ class EventViewset(ModelViewSet):
     permission_classes = [IsAuthenticated, permissions.EventPermissions]
     serializer_class = serializers.EventSerializer
     queryset = models.Event.objects.all()
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+
+        if self.request.method == "GET":
+            if self.request.user.groups.filter(name='SUPPORT').exists():
+                return queryset.filter(employee_event=self.request.user)
+            elif self.request.user.groups.filter(name='COMMERCIAL').exists():
+                client_contract = models.Client.objects.filter(employee_contact=self.request.user)
+                contract_event = models.Contract.objects.filter(client_id__in=client_contract)
+                events = models.Event.objects.filter(contract_id__in=contract_event)
+                return queryset.filter(id__in=events)
+            elif self.request.user.groups.filter(name='MANAGER').exists():
+                return queryset
+            else:
+                return queryset
