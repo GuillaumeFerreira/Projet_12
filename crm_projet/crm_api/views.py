@@ -1,6 +1,10 @@
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
 from . import models, serializers, permissions
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 class ClientsViewset(ModelViewSet):
 

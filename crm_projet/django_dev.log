@@ -1,0 +1,107 @@
+[2022-09-05 11:08:26] INFO [django.utils.autoreload.run_with_reloader:677] Watching for file changes with StatReloader
+[2022-09-05 11:08:26] INFO [django.utils.autoreload.run_with_reloader:677] Watching for file changes with StatReloader
+[2022-09-05 11:09:51] WARNING [django.request.log_response:241] Not Found: /clients/
+[2022-09-05 11:09:51] WARNING [django.request.log_response:241] Not Found: /clients/
+[2022-09-05 11:09:51] WARNING [django.server.log_message:187] "GET /clients/ HTTP/1.1" 404 2450
+[2022-09-05 11:09:51] WARNING [django.server.log_message:187] "GET /clients/ HTTP/1.1" 404 2450
+[2022-09-05 11:10:04] DEBUG [MARKDOWN.build_extension:163] Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:10:04] DEBUG [MARKDOWN.registerExtensions:126] Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:10:04] INFO [django.server.log_message:187] "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:10:04] INFO [django.server.log_message:187] "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:11:01] INFO [django.utils.autoreload.trigger_reload:266] C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:11:01] INFO [django.utils.autoreload.trigger_reload:266] C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:11:02] INFO [django.utils.autoreload.run_with_reloader:677] Watching for file changes with StatReloader
+[2022-09-05 11:11:54] INFO [django.utils.autoreload.trigger_reload:266] C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:11:55] INFO Watching for file changes with StatReloader
+[2022-09-05 11:11:55] INFO Watching for file changes with StatReloader
+[2022-09-05 11:12:03] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:12:03] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:12:03] INFO "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:12:03] INFO "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:12:25] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:12:25] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:12:25] INFO "GET /api/clients/1/ HTTP/1.1" 200 5958
+[2022-09-05 11:12:25] INFO "GET /api/clients/1/ HTTP/1.1" 200 5958
+[2022-09-05 11:12:31] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:12:31] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:12:31] WARNING Not Found: /api/clients/2/
+[2022-09-05 11:12:31] WARNING Not Found: /api/clients/2/
+[2022-09-05 11:12:31] WARNING "GET /api/clients/2/ HTTP/1.1" 404 5510
+[2022-09-05 11:12:31] WARNING "GET /api/clients/2/ HTTP/1.1" 404 5510
+[2022-09-05 11:13:08] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:13:08] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:13:08] INFO "GET /api/events/ HTTP/1.1" 200 5711
+[2022-09-05 11:13:08] INFO "GET /api/events/ HTTP/1.1" 200 5711
+[2022-09-05 11:13:51] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:13:51] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:13:53] INFO Watching for file changes with StatReloader
+[2022-09-05 11:13:53] INFO Watching for file changes with StatReloader
+[2022-09-05 11:16:49] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:16:49] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:16:51] INFO Watching for file changes with StatReloader
+[2022-09-05 11:16:51] INFO Watching for file changes with StatReloader
+[2022-09-05 11:17:06] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:17:06] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:17:08] INFO Watching for file changes with StatReloader
+[2022-09-05 11:17:08] INFO Watching for file changes with StatReloader
+[2022-09-05 11:17:18] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:17:18] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:17:21] INFO Watching for file changes with StatReloader
+[2022-09-05 11:17:21] INFO Watching for file changes with StatReloader
+[2022-09-05 11:17:21] INFO HELLO_WORLD
+[2022-09-05 11:17:26] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:17:26] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:17:26] INFO "GET /api/events/ HTTP/1.1" 200 5711
+[2022-09-05 11:17:26] INFO "GET /api/events/ HTTP/1.1" 200 5711
+[2022-09-05 11:18:52] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:18:52] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:18:54] INFO Watching for file changes with StatReloader
+[2022-09-05 11:18:54] INFO HELLO_WORLD
+[2022-09-05 11:18:56] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:18:56] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:19:17] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:19:19] INFO Watching for file changes with StatReloader
+[2022-09-05 11:19:19] INFO HELLO_WORLD
+[2022-09-05 11:19:21] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:19:21] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:19:30] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:19:30] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:19:50] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:19:52] INFO Watching for file changes with StatReloader
+[2022-09-05 11:19:52] INFO HELLO_WORLD
+[2022-09-05 11:20:02] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:20:20] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:20:25] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:20:25] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:20:50] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:21:29] INFO Watching for file changes with StatReloader
+[2022-09-05 11:21:29] INFO HELLO_WORLD
+[2022-09-05 11:21:38] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:21:38] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:24:52] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:24:54] INFO Watching for file changes with StatReloader
+[2022-09-05 11:25:03] INFO HTTP GET
+[2022-09-05 11:25:03] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:25:03] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:25:03] INFO HTTP GET
+[2022-09-05 11:25:41] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:25:42] INFO Watching for file changes with StatReloader
+[2022-09-05 11:25:46] INFO HTTP GET
+[2022-09-05 11:25:46] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:25:46] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:25:46] INFO HTTP GET
+[2022-09-05 11:26:50] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:26:52] INFO Watching for file changes with StatReloader
+[2022-09-05 11:27:21] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-05 11:27:23] INFO Watching for file changes with StatReloader
+[2022-09-05 11:27:23] INFO Watching for file changes with StatReloader
+[2022-09-05 11:27:26] INFO HTTP GET
+[2022-09-05 11:27:26] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-05 11:27:26] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-05 11:27:26] INFO HTTP GET
+[2022-09-05 11:27:26] INFO "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:27:26] INFO "GET /api/clients/ HTTP/1.1" 200 5847
+[2022-09-05 11:28:08] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:28:08] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-05 11:28:11] INFO Watching for file changes with StatReloader
+[2022-09-05 11:28:11] INFO Watching for file changes with StatReloader
