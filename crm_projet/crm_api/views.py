@@ -31,6 +31,13 @@ class ContractViewset(ModelViewSet):
     serializer_class = serializers.ContractSerializer
     queryset = models.Contract.objects.all()
 
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        if self.request.method == "GET":
+            if self.request.user.groups.filter(name='COMMERCIAL').exists():
+                return queryset.filter(employee_contact=self.request.user)
+            else:
+                return queryset
 
 class EventViewset(ModelViewSet):
 
