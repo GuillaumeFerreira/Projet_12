@@ -36,7 +36,7 @@ class ClientPermissions(permissions.BasePermission):
             elif request.user.groups.filter(name='MANAGER').exists():
                 return True
             else:
-                return True
+                return False
         else:
             if request.user.groups.filter(name='COMMERCIAL').exists():
                 return request.user == obj.employee_contact
@@ -45,4 +45,38 @@ class ClientPermissions(permissions.BasePermission):
             elif request.user.groups.filter(name='MANAGER').exists():
                 return True
             else:
+                return False
+
+
+class ContractPermissions(permissions.BasePermission):
+    #permissions list
+    def has_permission(self, request, view):
+        if request.user.groups.filter(name='SUPPORT').exists():
+            return False
+        elif request.user.groups.filter(name='MANAGER').exists():
+             return True
+        elif request.user.groups.filter(name='MANAGER').exists():
+            return True
+        else:
+            return False
+
+    #permission detail
+    def has_object_permission(self, request, view, obj):
+        if request.method == "POST":
+            if request.user.groups.filter(name='SUPPORT').exists():
+                return False
+            elif request.user.groups.filter(name='COMMERCIAL').exists():
                 return True
+            elif request.user.groups.filter(name='MANAGER').exists():
+                return True
+            else:
+                return False
+        else:
+            if request.user.groups.filter(name='COMMERCIAL').exists():
+                return request.user == obj.employee_contact
+            elif request.user.groups.filter(name='SUPPORT').exists():
+                return False
+            elif request.user.groups.filter(name='MANAGER').exists():
+                return True
+            else:
+                return False

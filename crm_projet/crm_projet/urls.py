@@ -17,10 +17,11 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework import routers
-from crm_api.views import ClientsViewset
+from crm_api.views import ClientsViewset, ContractViewset
 
 router = routers.SimpleRouter()
 router.register("clients", ClientsViewset, basename="clients")
+router.register("contracts", ContractViewset, basename="contracts")
 
 urlpatterns = [
     path("admin/", admin.site.urls),
