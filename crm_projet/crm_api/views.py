@@ -27,7 +27,7 @@ class ClientsViewset(ModelViewSet):
 
 class ContractViewset(ModelViewSet):
 
-    permission_classes = [IsAuthenticated,permissions.ContractPermissions]
+    permission_classes = [IsAuthenticated, permissions.ContractPermissions]
     serializer_class = serializers.ContractSerializer
     queryset = models.Contract.objects.all()
 
@@ -41,6 +41,6 @@ class ContractViewset(ModelViewSet):
 
 class EventViewset(ModelViewSet):
 
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated, permissions.EventPermissions]
     serializer_class = serializers.EventSerializer
     queryset = models.Event.objects.all()
