@@ -8,6 +8,22 @@ class ClientsViewset(ModelViewSet):
     serializer_class = serializers.ClientsSerializer
     queryset = models.Client.objects.all()
 
+    def get_queryset(self):
+        queryset = super().get_queryset()
+
+        if self.request.method == "GET":
+            if self.request.user.groups.filter(name='SUPPORT').exists():
+                contracts = models.Event.objects.filter(employee_event=self.request.user)
+                clients = models.Contract.objects.filter(id__in=contracts)
+                return queryset.filter(id__in=clients)
+            elif self.request.user.groups.filter(name='COMMERCIAL').exists():
+                return queryset.filter(employee_contact=self.request.user)
+            elif self.request.user.groups.filter(name='MANAGER').exists():
+                return queryset
+            else:
+                return queryset
+
+
 
 class ContractViewset(ModelViewSet):
 
