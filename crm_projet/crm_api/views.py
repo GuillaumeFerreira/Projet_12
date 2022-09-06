@@ -29,6 +29,8 @@ class ClientsViewset(ModelViewSet):
                 return queryset
             else:
                 return queryset
+        else:
+            return queryset
 
 
 class ContractViewset(ModelViewSet):
@@ -52,6 +54,8 @@ class ContractViewset(ModelViewSet):
                 return queryset.filter(employee_contact=self.request.user)
             else:
                 return queryset
+        else:
+            return queryset
 
 
 class EventViewset(ModelViewSet):
@@ -85,3 +89,5 @@ class EventViewset(ModelViewSet):
                 return queryset
             else:
                 return queryset
+        else:
+            return queryset

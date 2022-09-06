@@ -2825,3 +2825,139 @@ TypeError: 'Meta.fields' must not contain non-model field names: project_name
 [2022-09-05 15:05:01] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
 [2022-09-05 15:05:01] INFO "GET /api/events/?contract__client__first_name=Client_1&contract__client__email=&event_date= HTTP/1.1" 200 13535
 [2022-09-05 15:05:01] INFO "GET /api/events/?contract__client__first_name=Client_1&contract__client__email=&event_date= HTTP/1.1" 200 13535
+[2022-09-06 12:30:02] INFO Watching for file changes with StatReloader
+[2022-09-06 12:30:02] INFO Watching for file changes with StatReloader
+[2022-09-06 12:30:27] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 12:30:27] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 12:30:28] INFO "GET /api/clients/ HTTP/1.1" 200 13703
+[2022-09-06 12:30:28] INFO "GET /api/clients/ HTTP/1.1" 200 13703
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[2022-09-06 12:30:29] INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[2022-09-06 12:30:41] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 12:30:41] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 12:30:41] WARNING Method Not Allowed: /login/
+[2022-09-06 12:30:41] WARNING Method Not Allowed: /login/
+[2022-09-06 12:30:41] WARNING "GET /login/ HTTP/1.1" 405 7676
+[2022-09-06 12:30:41] WARNING "GET /login/ HTTP/1.1" 405 7676
+[2022-09-06 12:32:36] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-06 12:32:36] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-06 12:38:39] INFO "GET /api-auth/login/?next=/login/ HTTP/1.1" 200 2707
+[2022-09-06 12:38:39] INFO "GET /api-auth/login/?next=/login/ HTTP/1.1" 200 2707
+[2022-09-06 12:38:43] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-06 12:38:43] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-06 12:38:43] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 12:38:43] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 12:38:43] WARNING Method Not Allowed: /login/
+[2022-09-06 12:38:43] WARNING Method Not Allowed: /login/
+[2022-09-06 12:38:43] WARNING "GET /login/ HTTP/1.1" 405 7676
+[2022-09-06 12:38:43] WARNING "GET /login/ HTTP/1.1" 405 7676
+[2022-09-06 12:38:49] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 12:38:49] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 12:38:49] INFO "GET /api/clients/ HTTP/1.1" 200 7053
+[2022-09-06 12:38:49] INFO "GET /api/clients/ HTTP/1.1" 200 7053
+[2022-09-06 12:39:58] WARNING Unauthorized: /api/clients/
+[2022-09-06 12:39:58] WARNING Unauthorized: /api/clients/
+[2022-09-06 12:39:58] WARNING "GET /api/clients/ HTTP/1.1" 401 58
+[2022-09-06 12:39:58] WARNING "GET /api/clients/ HTTP/1.1" 401 58
+[2022-09-06 12:40:26] INFO "GET /api/clients/ HTTP/1.1" 200 240
+[2022-09-06 12:40:26] INFO "GET /api/clients/ HTTP/1.1" 200 240
+[2022-09-06 12:42:48] INFO "GET /api/clients/1 HTTP/1.1" 301 0
+[2022-09-06 12:42:48] INFO "GET /api/clients/1 HTTP/1.1" 301 0
+[2022-09-06 12:42:48] INFO "GET /api/clients/1/ HTTP/1.1" 200 238
+[2022-09-06 12:42:48] INFO "GET /api/clients/1/ HTTP/1.1" 200 238
+[2022-09-06 12:49:14] ERROR Internal Server Error: /api/clients/1
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/clients/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2022-09-06 12:49:14] ERROR Internal Server Error: /api/clients/1
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/clients/1/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2022-09-06 12:49:14] ERROR "PUT /api/clients/1 HTTP/1.1" 500 75799
+[2022-09-06 12:49:14] ERROR "PUT /api/clients/1 HTTP/1.1" 500 75799
+[2022-09-06 12:49:27] WARNING Forbidden: /api/clients/1/
+[2022-09-06 12:49:27] WARNING Forbidden: /api/clients/1/
+[2022-09-06 12:49:27] WARNING "PUT /api/clients/1/ HTTP/1.1" 403 63
+[2022-09-06 12:49:27] WARNING "PUT /api/clients/1/ HTTP/1.1" 403 63
+[2022-09-06 12:50:05] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-06 12:50:05] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-06 12:51:11] WARNING Not Found: /api/clients/1/
+[2022-09-06 12:51:11] WARNING Not Found: /api/clients/1/
+[2022-09-06 12:51:11] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 23
+[2022-09-06 12:51:11] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 23
+[2022-09-06 12:51:31] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 12:51:31] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 12:51:31] INFO "GET /api/clients/1/ HTTP/1.1" 200 5958
+[2022-09-06 12:51:31] INFO "GET /api/clients/1/ HTTP/1.1" 200 5958
+[2022-09-06 12:51:34] INFO "GET /api-auth/logout/?next=/api/clients/1/ HTTP/1.1" 302 0
+[2022-09-06 12:51:34] INFO "GET /api-auth/logout/?next=/api/clients/1/ HTTP/1.1" 302 0
+[2022-09-06 12:51:34] WARNING Unauthorized: /api/clients/1/
+[2022-09-06 12:51:34] WARNING Unauthorized: /api/clients/1/
+[2022-09-06 12:51:34] WARNING "GET /api/clients/1/ HTTP/1.1" 401 5392
+[2022-09-06 12:51:34] WARNING "GET /api/clients/1/ HTTP/1.1" 401 5392
+[2022-09-06 12:51:35] INFO "GET /api-auth/login/?next=/api/clients/1/ HTTP/1.1" 200 2715
+[2022-09-06 12:51:35] INFO "GET /api-auth/login/?next=/api/clients/1/ HTTP/1.1" 200 2715
+[2022-09-06 12:51:39] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-06 12:51:39] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-06 12:51:39] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 12:51:39] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 12:51:39] INFO "GET /api/clients/1/ HTTP/1.1" 200 13434
+[2022-09-06 12:51:39] INFO "GET /api/clients/1/ HTTP/1.1" 200 13434
+[2022-09-06 12:52:11] WARNING Not Found: /api/clients/1/
+[2022-09-06 12:52:11] WARNING Not Found: /api/clients/1/
+[2022-09-06 12:52:11] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 23
+[2022-09-06 12:52:11] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 23
+[2022-09-06 12:56:58] WARNING Not Found: /api/clients/1/
+[2022-09-06 12:56:58] WARNING Not Found: /api/clients/1/
+[2022-09-06 12:56:58] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 23
+[2022-09-06 12:56:58] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 23
+[2022-09-06 13:00:05] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 13:00:05] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 13:00:05] WARNING Not Found: /api/clients/1/
+[2022-09-06 13:00:05] WARNING Not Found: /api/clients/1/
+[2022-09-06 13:00:05] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 12784
+[2022-09-06 13:00:05] WARNING "PUT /api/clients/1/ HTTP/1.1" 404 12784
+[2022-09-06 13:04:51] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-06 13:04:51] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-06 13:04:53] INFO Watching for file changes with StatReloader
+[2022-09-06 13:04:53] INFO Watching for file changes with StatReloader
+[2022-09-06 13:04:58] INFO "PUT /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-06 13:04:58] INFO "PUT /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-06 13:05:17] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-06 13:05:17] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
+[2022-09-06 13:05:19] INFO Watching for file changes with StatReloader
+[2022-09-06 13:05:19] INFO Watching for file changes with StatReloader
