@@ -1,13 +1,8 @@
 from rest_framework.viewsets import ModelViewSet
 from rest_framework.permissions import IsAuthenticated
-
 from django_filters.rest_framework import DjangoFilterBackend
 from . import models, serializers, permissions
 from rest_framework import status, viewsets, filters
-
-# import logging
-
-# logger = logging.getLogger(__name__)
 
 
 class ClientsViewset(ModelViewSet):
@@ -43,7 +38,6 @@ class ContractViewset(ModelViewSet):
     queryset = models.Contract.objects.all()
 
     filter_backends = [filters.SearchFilter, DjangoFilterBackend]
-    # search_fields = ['client__first_name','date_created','amount']
     filterset_fields = [
         "client__first_name",
         "client__email",
