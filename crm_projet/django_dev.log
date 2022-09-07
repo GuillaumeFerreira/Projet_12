@@ -2961,3 +2961,201 @@ RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash an
 [2022-09-06 13:05:17] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_api\views.py changed, reloading.
 [2022-09-06 13:05:19] INFO Watching for file changes with StatReloader
 [2022-09-06 13:05:19] INFO Watching for file changes with StatReloader
+[2022-09-06 13:07:10] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 13:07:10] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 13:07:10] INFO "GET /api/clients/1/ HTTP/1.1" 200 13461
+[2022-09-06 13:07:10] INFO "GET /api/clients/1/ HTTP/1.1" 200 13461
+[2022-09-06 13:07:18] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 13:07:18] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 13:07:18] INFO "PUT /api/clients/1/ HTTP/1.1" 200 13440
+[2022-09-06 13:07:18] INFO "PUT /api/clients/1/ HTTP/1.1" 200 13440
+[2022-09-06 13:08:26] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-06 13:08:26] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-06 13:08:32] INFO "GET /api/clients/ HTTP/1.1" 200 720
+[2022-09-06 13:08:32] INFO "GET /api/clients/ HTTP/1.1" 200 720
+[2022-09-06 13:08:44] INFO "DELETE /api/clients/3/ HTTP/1.1" 204 0
+[2022-09-06 13:08:44] INFO "DELETE /api/clients/3/ HTTP/1.1" 204 0
+[2022-09-06 13:08:48] INFO "GET /api/clients/ HTTP/1.1" 200 481
+[2022-09-06 13:08:48] INFO "GET /api/clients/ HTTP/1.1" 200 481
+[2022-09-06 13:09:29] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 13:09:29] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 13:09:29] INFO "GET /api/contracts/ HTTP/1.1" 200 13237
+[2022-09-06 13:09:29] INFO "GET /api/contracts/ HTTP/1.1" 200 13237
+[2022-09-06 13:09:47] INFO "GET /api/contracts/ HTTP/1.1" 200 451
+[2022-09-06 13:09:47] INFO "GET /api/contracts/ HTTP/1.1" 200 451
+[2022-09-06 13:10:38] INFO "GET /api/contracts/1/ HTTP/1.1" 200 223
+[2022-09-06 13:10:38] INFO "GET /api/contracts/1/ HTTP/1.1" 200 223
+[2022-09-06 13:13:39] INFO "POST /api/contracts/ HTTP/1.1" 201 224
+[2022-09-06 13:13:39] INFO "POST /api/contracts/ HTTP/1.1" 201 224
+[2022-09-06 13:13:43] INFO "GET /api/contracts/ HTTP/1.1" 200 676
+[2022-09-06 13:13:43] INFO "GET /api/contracts/ HTTP/1.1" 200 676
+[2022-09-06 13:13:52] INFO "DELETE /api/contracts/3/ HTTP/1.1" 204 0
+[2022-09-06 13:13:52] INFO "DELETE /api/contracts/3/ HTTP/1.1" 204 0
+[2022-09-06 13:14:45] INFO "PUT /api/contracts/1/ HTTP/1.1" 200 223
+[2022-09-06 13:14:45] INFO "PUT /api/contracts/1/ HTTP/1.1" 200 223
+[2022-09-06 13:14:52] INFO "PUT /api/contracts/1/ HTTP/1.1" 200 223
+[2022-09-06 13:14:52] INFO "PUT /api/contracts/1/ HTTP/1.1" 200 223
+[2022-09-06 13:15:13] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 13:15:13] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 13:15:13] INFO "GET /api/events/ HTTP/1.1" 200 13368
+[2022-09-06 13:15:13] INFO "GET /api/events/ HTTP/1.1" 200 13368
+[2022-09-06 13:16:15] WARNING Unauthorized: /api/events/
+[2022-09-06 13:16:15] WARNING Unauthorized: /api/events/
+[2022-09-06 13:16:15] WARNING "GET /api/events/ HTTP/1.1" 401 58
+[2022-09-06 13:16:15] WARNING "GET /api/events/ HTTP/1.1" 401 58
+[2022-09-06 13:16:24] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-06 13:16:24] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-06 13:17:03] INFO "GET /api/events/1/ HTTP/1.1" 200 210
+[2022-09-06 13:17:03] INFO "GET /api/events/1/ HTTP/1.1" 200 210
+[2022-09-06 13:39:48] INFO "POST /api/events/ HTTP/1.1" 201 210
+[2022-09-06 13:39:48] INFO "POST /api/events/ HTTP/1.1" 201 210
+[2022-09-06 13:40:12] INFO "DELETE /api/events/3/ HTTP/1.1" 204 0
+[2022-09-06 13:40:12] INFO "DELETE /api/events/3/ HTTP/1.1" 204 0
+[2022-09-06 13:40:17] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-06 13:40:17] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-06 13:40:57] INFO "PUT /api/events/1/ HTTP/1.1" 200 210
+[2022-09-06 13:40:57] INFO "PUT /api/events/1/ HTTP/1.1" 200 210
+[2022-09-06 13:41:35] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-06 13:41:35] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-06 13:42:36] INFO "GET /api/clients/ HTTP/1.1" 200 481
+[2022-09-06 13:42:36] INFO "GET /api/clients/ HTTP/1.1" 200 481
+[2022-09-06 13:42:42] INFO "GET /api/clients/ HTTP/1.1" 200 242
+[2022-09-06 13:42:42] INFO "GET /api/clients/ HTTP/1.1" 200 242
+[2022-09-06 13:42:48] INFO "GET /api/clients/ HTTP/1.1" 200 242
+[2022-09-06 13:42:48] INFO "GET /api/clients/ HTTP/1.1" 200 242
+[2022-09-06 13:43:05] WARNING Forbidden: /api/clients/1/
+[2022-09-06 13:43:05] WARNING Forbidden: /api/clients/1/
+[2022-09-06 13:43:05] WARNING "PUT /api/clients/1/ HTTP/1.1" 403 63
+[2022-09-06 13:43:05] WARNING "PUT /api/clients/1/ HTTP/1.1" 403 63
+[2022-09-06 13:43:12] INFO "PUT /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-06 13:43:12] INFO "PUT /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-06 13:43:17] ERROR Internal Server Error: /api/clients/2
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/clients/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2022-09-06 13:43:17] ERROR Internal Server Error: /api/clients/2
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\middleware\common.py", line 88, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to 127.0.0.1:8000/api/clients/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[2022-09-06 13:43:17] ERROR "PUT /api/clients/2 HTTP/1.1" 500 75799
+[2022-09-06 13:43:17] ERROR "PUT /api/clients/2 HTTP/1.1" 500 75799
+[2022-09-06 13:43:21] WARNING Forbidden: /api/clients/2/
+[2022-09-06 13:43:21] WARNING Forbidden: /api/clients/2/
+[2022-09-06 13:43:21] WARNING "PUT /api/clients/2/ HTTP/1.1" 403 63
+[2022-09-06 13:43:21] WARNING "PUT /api/clients/2/ HTTP/1.1" 403 63
+[2022-09-06 13:43:34] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-06 13:43:34] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-06 14:02:12] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-06 14:02:12] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-06 14:02:25] INFO "GET /api/clients/ HTTP/1.1" 200 488
+[2022-09-06 14:02:25] INFO "GET /api/clients/ HTTP/1.1" 200 488
+[2022-09-06 14:21:34] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-06 14:21:34] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-06 14:21:34] INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2022-09-06 14:21:34] INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2022-09-06 14:21:34] INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2022-09-06 14:21:34] INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2022-09-06 14:21:35] INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2022-09-06 14:21:35] INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2022-09-06 14:21:35] INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2022-09-06 14:21:35] INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2022-09-06 14:21:35] INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-09-06 14:21:35] INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:36] INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:37] INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-09-06 14:21:37] INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-09-06 14:21:37] INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-09-06 14:21:37] INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-09-06 14:21:37] INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-09-06 14:21:37] INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8460
+[2022-09-06 14:21:52] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8460
+[2022-09-06 14:21:52] INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2022-09-06 14:21:52] INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2022-09-06 14:21:53] INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2022-09-06 14:21:53] INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2022-09-06 14:21:53] INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:53] INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:54] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-06 14:21:54] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-06 14:21:54] INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2022-09-06 14:21:54] INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2022-09-06 14:22:05] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-06 14:22:05] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-06 14:22:06] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-06 14:22:06] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-06 14:29:02] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-06 14:29:02] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-06 14:29:05] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-06 14:29:05] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-06 14:29:05] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-06 14:29:05] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-06 14:29:05] INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[2022-09-06 14:29:05] INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[2022-09-06 14:29:15] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-06 14:29:15] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-06 14:29:16] INFO "GET /admin/ HTTP/1.1" 200 8903
+[2022-09-06 14:29:16] INFO "GET /admin/ HTTP/1.1" 200 8903
+[2022-09-06 14:29:20] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8453
+[2022-09-06 14:29:20] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8453
+[2022-09-06 14:29:22] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-06 14:29:22] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-06 14:39:27] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 14:39:27] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 14:39:27] INFO "GET /api/clients/ HTTP/1.1" 200 13712
+[2022-09-06 14:39:27] INFO "GET /api/clients/ HTTP/1.1" 200 13712
+[2022-09-06 14:39:30] INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2022-09-06 14:39:30] INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2022-09-06 14:41:21] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 14:41:21] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 14:41:21] INFO "GET /api/clients/?first_name=Client_1&email= HTTP/1.1" 200 12827
+[2022-09-06 14:41:21] INFO "GET /api/clients/?first_name=Client_1&email= HTTP/1.1" 200 12827
+[2022-09-06 14:41:53] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 14:41:53] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 14:41:53] INFO "GET /api/clients/?last_name= HTTP/1.1" 200 13797
+[2022-09-06 14:41:53] INFO "GET /api/clients/?last_name= HTTP/1.1" 200 13797
+[2022-09-06 14:42:18] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 14:42:18] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 14:42:18] INFO "GET /api/clients/?employee_contact=2 HTTP/1.1" 200 13853
+[2022-09-06 14:42:18] INFO "GET /api/clients/?employee_contact=2 HTTP/1.1" 200 13853
+[2022-09-06 14:42:32] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-06 14:42:32] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-06 14:42:32] INFO "GET /api/clients/ HTTP/1.1" 200 13712
+[2022-09-06 14:42:32] INFO "GET /api/clients/ HTTP/1.1" 200 13712
