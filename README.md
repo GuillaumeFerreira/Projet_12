@@ -25,6 +25,12 @@ pip install -r requirements.txt
 ```
 python manage.py runserver
 ```
+### Panel administration
+Vous pouvez accéder au panel d'administration de django avec le lien suivant:
+#### Lien:
+> http://127.0.0.1:8000/admin
+
+
 ### Permissions
 
 <table><tr><td colspan="2">Permissions</td><td>MANAGER</td><td>COMMERCIAL</td><td>SUPPORT</td></tr>
@@ -48,6 +54,7 @@ python manage.py runserver
 
 YES* --> Oui si l'objet lui est attribué
 
+## Contribuer au projet
 Ce projet fait partie dans de la formation Openclassrooms. N'hésitez pas à clôner la source et à contribuer avec vos propres fonctionnalités.
 Pour toutes contibutions, veuillez utiliser black et flake8
 #### Exécuter black
