@@ -10,10 +10,20 @@ git clone https://github.com/GuillaumeFerreira/Projet_12.git
 ou
 > https://github.com/GuillaumeFerreira/Projet_12/archive/refs/heads/main.zip
 #### Créer l'environnement virtuel
+Sous macos ou linux
+```
+python3 -m venv env
+```
+Sous windows
 ```
 python -m venv env
 ```
 #### Activer l'environnement virtuel
+Sous macos ou linux
+```
+source env/bin/activate
+```
+Sous windows
 ```
 env\Scripts\activate.bat
 ```
@@ -29,8 +39,8 @@ python manage.py runserver
 Vous pouvez accéder au panel d'administration de django avec le lien suivant:
 #### Lien:
 > http://127.0.0.1:8000/admin
-
-
+### Points de terminaisons
+Pour l'utilisation des points de terminaisons de l'api veuillez suivre la [documentation Postman](https://documenter.getpostman.com/view/20501016/VV51rtpy).
 ### Permissions
 
 <table><tr><td colspan="2">Permissions</td><td>MANAGER</td><td>COMMERCIAL</td><td>SUPPORT</td></tr>
