@@ -92,15 +92,11 @@ class EventViewset(ModelViewSet):
         else:
             return queryset
 
-
-
-
-
     def perform_create(self, serializer):
-            contract_id = serializer.validated_data['contract'].id
-            is_contract_signed = models.Contract.objects.get(id=contract_id)
-            if is_contract_signed.signed:
-                serializer.save()
+        contract_id = serializer.validated_data["contract"].id
+        is_contract_signed = models.Contract.objects.get(id=contract_id)
+        if is_contract_signed.signed:
+            serializer.save()
 
-            else:
-                raise ValueError('Le contrat indiqué n\'est pas signé.')
+        else:
+            raise ValueError("Le contrat indiqué n'est pas signé.")
