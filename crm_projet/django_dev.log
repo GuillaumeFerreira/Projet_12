@@ -3159,3 +3159,1035 @@ RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash an
 [2022-09-06 14:42:32] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
 [2022-09-06 14:42:32] INFO "GET /api/clients/ HTTP/1.1" 200 13712
 [2022-09-06 14:42:32] INFO "GET /api/clients/ HTTP/1.1" 200 13712
+[2022-09-13 12:59:23] INFO Watching for file changes with StatReloader
+[2022-09-13 12:59:23] INFO Watching for file changes with StatReloader
+[2022-09-13 12:59:32] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 12:59:32] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 12:59:33] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 12:59:33] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/base.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+[2022-09-13 12:59:33] INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+[2022-09-13 12:59:34] WARNING Not Found: /favicon.ico
+[2022-09-13 12:59:34] WARNING Not Found: /favicon.ico
+[2022-09-13 12:59:34] WARNING "GET /favicon.ico HTTP/1.1" 404 2459
+[2022-09-13 12:59:34] WARNING "GET /favicon.ico HTTP/1.1" 404 2459
+[2022-09-13 12:59:39] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 12:59:39] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 12:59:40] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 12:59:40] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 12:59:40] INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-09-13 12:59:40] INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+[2022-09-13 12:59:45] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 12:59:45] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 12:59:46] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 12:59:46] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 12:59:46] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 12:59:46] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 12:59:49] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2389
+[2022-09-13 12:59:49] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2389
+[2022-09-13 12:59:54] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 12:59:54] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 12:59:58] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 12:59:58] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 13:00:04] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 13:00:04] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 13:00:04] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 13:00:04] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 13:36:44] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:36:44] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:36:45] INFO "GET /api/clients/ HTTP/1.1" 200 13719
+[2022-09-13 13:36:45] INFO "GET /api/clients/ HTTP/1.1" 200 13719
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2022-09-13 13:36:45] INFO "GET /static/rest_framework/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1" 304 0
+[2022-09-13 13:40:38] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:40:38] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:40:38] INFO "GET /api/clients/?first_name=Client_1&email=guillaumeferreira00%40gmail.com HTTP/1.1" 200 13089
+[2022-09-13 13:40:38] INFO "GET /api/clients/?first_name=Client_1&email=guillaumeferreira00%40gmail.com HTTP/1.1" 200 13089
+[2022-09-13 13:40:45] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:40:45] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:40:45] INFO "GET /api/clients/?first_name=Client_1 HTTP/1.1" 200 12757
+[2022-09-13 13:40:45] INFO "GET /api/clients/?first_name=Client_1 HTTP/1.1" 200 12757
+[2022-09-13 13:40:53] INFO "GET /api/clients HTTP/1.1" 301 0
+[2022-09-13 13:40:53] INFO "GET /api/clients HTTP/1.1" 301 0
+[2022-09-13 13:40:53] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:40:53] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:40:53] INFO "GET /api/clients/ HTTP/1.1" 200 13719
+[2022-09-13 13:40:53] INFO "GET /api/clients/ HTTP/1.1" 200 13719
+[2022-09-13 13:41:04] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:04] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:04] INFO "GET /api/clients/?first_name=Client_1_modifie&email= HTTP/1.1" 200 12898
+[2022-09-13 13:41:04] INFO "GET /api/clients/?first_name=Client_1_modifie&email= HTTP/1.1" 200 12898
+[2022-09-13 13:41:10] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:10] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:10] INFO "GET /api/clients/?first_name=Client_1_modifier&email= HTTP/1.1" 200 13474
+[2022-09-13 13:41:10] INFO "GET /api/clients/?first_name=Client_1_modifier&email= HTTP/1.1" 200 13474
+[2022-09-13 13:41:13] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:13] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:13] INFO "GET /api/clients/?first_name=Client_1_modifier&email=xc HTTP/1.1" 200 12931
+[2022-09-13 13:41:13] INFO "GET /api/clients/?first_name=Client_1_modifier&email=xc HTTP/1.1" 200 12931
+[2022-09-13 13:41:16] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:16] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:16] INFO "GET /api/clients/?first_name=Client_1_modifier HTTP/1.1" 200 13397
+[2022-09-13 13:41:16] INFO "GET /api/clients/?first_name=Client_1_modifier HTTP/1.1" 200 13397
+[2022-09-13 13:41:36] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:36] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:36] INFO "POST /api/clients/?first_name=Client_1_modifier HTTP/1.1" 201 12222
+[2022-09-13 13:41:36] INFO "POST /api/clients/?first_name=Client_1_modifier HTTP/1.1" 201 12222
+[2022-09-13 13:41:41] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:41] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:41] INFO "OPTIONS /api/clients/?first_name=Client_1_modifier HTTP/1.1" 200 15527
+[2022-09-13 13:41:41] INFO "OPTIONS /api/clients/?first_name=Client_1_modifier HTTP/1.1" 200 15527
+[2022-09-13 13:41:46] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:46] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:46] INFO "GET /api/clients/ HTTP/1.1" 200 14349
+[2022-09-13 13:41:46] INFO "GET /api/clients/ HTTP/1.1" 200 14349
+[2022-09-13 13:41:58] INFO "GET /api/clients/4 HTTP/1.1" 301 0
+[2022-09-13 13:41:58] INFO "GET /api/clients/4 HTTP/1.1" 301 0
+[2022-09-13 13:41:58] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:41:58] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:41:58] INFO "GET /api/clients/4/ HTTP/1.1" 200 13563
+[2022-09-13 13:41:58] INFO "GET /api/clients/4/ HTTP/1.1" 200 13563
+[2022-09-13 13:42:17] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:42:17] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:42:17] INFO "PUT /api/clients/4/ HTTP/1.1" 200 13536
+[2022-09-13 13:42:17] INFO "PUT /api/clients/4/ HTTP/1.1" 200 13536
+[2022-09-13 13:42:46] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:42:46] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:42:46] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:42:46] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:42:53] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:42:53] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:42:53] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com%22 HTTP/1.1" 200 13044
+[2022-09-13 13:42:53] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com%22 HTTP/1.1" 200 13044
+[2022-09-13 13:43:03] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:43:03] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:43:03] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:43:03] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:43:19] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:43:19] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:43:19] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 13638
+[2022-09-13 13:43:19] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 13638
+[2022-09-13 13:43:57] INFO "GET /api-auth/logout/?next=/api/clients/ HTTP/1.1" 302 0
+[2022-09-13 13:43:57] INFO "GET /api-auth/logout/?next=/api/clients/ HTTP/1.1" 302 0
+[2022-09-13 13:43:57] WARNING Unauthorized: /api/clients/
+[2022-09-13 13:43:57] WARNING Unauthorized: /api/clients/
+[2022-09-13 13:43:57] WARNING "GET /api/clients/ HTTP/1.1" 401 5225
+[2022-09-13 13:43:57] WARNING "GET /api/clients/ HTTP/1.1" 401 5225
+[2022-09-13 13:44:02] INFO "GET /api-auth/login/?next=/api/clients/ HTTP/1.1" 200 2713
+[2022-09-13 13:44:02] INFO "GET /api-auth/login/?next=/api/clients/ HTTP/1.1" 200 2713
+[2022-09-13 13:44:17] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:44:17] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:45:16] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 13:45:16] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 13:46:20] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-13 13:46:20] INFO "POST /api-auth/login/ HTTP/1.1" 302 0
+[2022-09-13 13:46:20] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:46:20] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:46:20] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:46:20] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:46:42] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:46:42] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:46:42] INFO "GET /api/contracts/ HTTP/1.1" 200 13325
+[2022-09-13 13:46:42] INFO "GET /api/contracts/ HTTP/1.1" 200 13325
+[2022-09-13 13:47:12] INFO "GET /api/contracts/1 HTTP/1.1" 301 0
+[2022-09-13 13:47:12] INFO "GET /api/contracts/1 HTTP/1.1" 301 0
+[2022-09-13 13:47:12] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:47:12] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:47:12] INFO "GET /api/contracts/1/ HTTP/1.1" 200 12872
+[2022-09-13 13:47:12] INFO "GET /api/contracts/1/ HTTP/1.1" 200 12872
+[2022-09-13 13:47:19] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:47:19] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:47:19] INFO "PUT /api/contracts/1/ HTTP/1.1" 200 12872
+[2022-09-13 13:47:19] INFO "PUT /api/contracts/1/ HTTP/1.1" 200 12872
+[2022-09-13 13:47:23] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:47:23] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:47:23] INFO "GET /api/contracts/ HTTP/1.1" 200 13325
+[2022-09-13 13:47:23] INFO "GET /api/contracts/ HTTP/1.1" 200 13325
+[2022-09-13 13:48:18] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:48:18] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:48:18] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05&amount=500 HTTP/1.1" 200 13284
+[2022-09-13 13:48:18] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05&amount=500 HTTP/1.1" 200 13284
+[2022-09-13 13:48:34] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:48:34] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:48:34] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05T06%3A59%3A56.475475Z&amount=500.0 HTTP/1.1" 200 13918
+[2022-09-13 13:48:34] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05T06%3A59%3A56.475475Z&amount=500.0 HTTP/1.1" 200 13918
+[2022-09-13 13:49:45] INFO "GET /api/clients/?client__first_name=Client_4&client__email=admin%40irontemple.com HTTP/1.1" 200 747
+[2022-09-13 13:49:45] INFO "GET /api/clients/?client__first_name=Client_4&client__email=admin%40irontemple.com HTTP/1.1" 200 747
+[2022-09-13 13:50:18] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:50:18] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:50:18] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:50:18] INFO "GET /api/clients/ HTTP/1.1" 200 14340
+[2022-09-13 13:50:24] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:50:24] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:50:24] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 13638
+[2022-09-13 13:50:24] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 13638
+[2022-09-13 13:50:55] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 13:50:55] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 13:51:07] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05T06%3A59%3A56.475475Z&amount=500.0 HTTP/1.1" 200 225
+[2022-09-13 13:51:07] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05T06%3A59%3A56.475475Z&amount=500.0 HTTP/1.1" 200 225
+[2022-09-13 13:53:17] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:53:17] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:53:17] INFO "GET /api/events/ HTTP/1.1" 200 13368
+[2022-09-13 13:53:17] INFO "GET /api/events/ HTTP/1.1" 200 13368
+[2022-09-13 13:54:00] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:54:00] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:54:00] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=admin%40irontemple.com&event_date=2022-09-05T07%3A01%3A11Z HTTP/1.1" 200 13913
+[2022-09-13 13:54:00] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=admin%40irontemple.com&event_date=2022-09-05T07%3A01%3A11Z HTTP/1.1" 200 13913
+[2022-09-13 13:54:13] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=admin%40irontemple.com&event_date=2022-09-05T07%3A01%3A11Z HTTP/1.1" 200 212
+[2022-09-13 13:54:13] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=admin%40irontemple.com&event_date=2022-09-05T07%3A01%3A11Z HTTP/1.1" 200 212
+[2022-09-13 13:54:51] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 13:54:51] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 13:55:39] DEBUG Successfully imported extension module "markdown.extensions.toc".
+[2022-09-13 13:55:39] DEBUG Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2022-09-13 13:55:39] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=&event_date= HTTP/1.1" 200 13542
+[2022-09-13 13:55:39] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=&event_date= HTTP/1.1" 200 13542
+[2022-09-13 13:56:22] INFO "GET /api-auth/logout/?next=/api/events/ HTTP/1.1" 302 0
+[2022-09-13 13:56:22] INFO "GET /api-auth/logout/?next=/api/events/ HTTP/1.1" 302 0
+[2022-09-13 13:56:22] WARNING Unauthorized: /api/events/
+[2022-09-13 13:56:22] WARNING Unauthorized: /api/events/
+[2022-09-13 13:56:22] WARNING "GET /api/events/ HTTP/1.1" 401 5207
+[2022-09-13 13:56:22] WARNING "GET /api/events/ HTTP/1.1" 401 5207
+[2022-09-13 13:56:23] INFO "GET /api-auth/login/?next=/api/events/ HTTP/1.1" 200 2712
+[2022-09-13 13:56:23] INFO "GET /api-auth/login/?next=/api/events/ HTTP/1.1" 200 2712
+[2022-09-13 13:56:38] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:56:38] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:57:07] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:57:07] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:57:24] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:57:24] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-13 13:57:49] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 13:57:49] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 13:57:54] INFO "GET /api/clients/1 HTTP/1.1" 301 0
+[2022-09-13 13:57:54] INFO "GET /api/clients/1 HTTP/1.1" 301 0
+[2022-09-13 13:57:54] INFO "GET /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-13 13:57:54] INFO "GET /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-13 14:05:15] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 14:05:15] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 14:05:28] INFO "GET /api/clients/ HTTP/1.1" 200 747
+[2022-09-13 14:05:28] INFO "GET /api/clients/ HTTP/1.1" 200 747
+[2022-09-13 14:05:50] INFO "GET /api/clients/ HTTP/1.1" 200 508
+[2022-09-13 14:05:50] INFO "GET /api/clients/ HTTP/1.1" 200 508
+[2022-09-13 14:06:04] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 14:06:04] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 14:12:29] INFO "GET /api/events/ HTTP/1.1" 200 212
+[2022-09-13 14:12:29] INFO "GET /api/events/ HTTP/1.1" 200 212
+[2022-09-13 14:12:35] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-13 14:12:35] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-13 14:37:16] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:37:16] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:37:16] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:37:16] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:37:19] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 14:37:19] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 14:37:19] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 14:37:19] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 14:41:13] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 14:41:13] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 14:41:15] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:41:15] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:41:15] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:41:15] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:41:19] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 14:41:19] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 14:41:19] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 14:41:19] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 14:41:34] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8460
+[2022-09-13 14:41:34] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8460
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:41:35] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2022-09-13 14:41:35] INFO "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[2022-09-13 14:42:13] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 8171
+[2022-09-13 14:42:13] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 8171
+[2022-09-13 14:42:13] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:13] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:17] INFO "GET /admin/crm_api/contract/ HTTP/1.1" 200 7979
+[2022-09-13 14:42:17] INFO "GET /admin/crm_api/contract/ HTTP/1.1" 200 7979
+[2022-09-13 14:42:17] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:17] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:18] INFO "GET /admin/crm_api/event_status/ HTTP/1.1" 200 8236
+[2022-09-13 14:42:18] INFO "GET /admin/crm_api/event_status/ HTTP/1.1" 200 8236
+[2022-09-13 14:42:18] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:18] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:24] INFO "GET /admin/crm_api/event/ HTTP/1.1" 200 7940
+[2022-09-13 14:42:24] INFO "GET /admin/crm_api/event/ HTTP/1.1" 200 7940
+[2022-09-13 14:42:24] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:24] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:42:42] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 14:42:42] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 14:42:43] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:42:43] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:42:43] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:42:43] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:42:49] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 14:42:49] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 14:42:55] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2389
+[2022-09-13 14:42:55] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2389
+[2022-09-13 14:43:07] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 14:43:07] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 14:43:07] INFO "GET /admin/ HTTP/1.1" 200 8903
+[2022-09-13 14:43:07] INFO "GET /admin/ HTTP/1.1" 200 8903
+[2022-09-13 14:43:10] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:10] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:10] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:10] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:16] INFO "GET /admin/management/employee/1/change/ HTTP/1.1" 200 18638
+[2022-09-13 14:43:16] INFO "GET /admin/management/employee/1/change/ HTTP/1.1" 200 18638
+[2022-09-13 14:43:16] INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/calendar.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:16] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[2022-09-13 14:43:16] INFO "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[2022-09-13 14:43:18] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:18] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:19] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:19] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:20] INFO "GET /admin/management/employee/3/change/ HTTP/1.1" 200 18612
+[2022-09-13 14:43:20] INFO "GET /admin/management/employee/3/change/ HTTP/1.1" 200 18612
+[2022-09-13 14:43:20] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:20] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:22] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:22] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:23] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:23] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:24] INFO "GET /admin/management/employee/1/change/ HTTP/1.1" 200 18638
+[2022-09-13 14:43:24] INFO "GET /admin/management/employee/1/change/ HTTP/1.1" 200 18638
+[2022-09-13 14:43:24] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:24] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:26] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:26] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8386
+[2022-09-13 14:43:26] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:26] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:28] INFO "GET /admin/management/employee/4/change/ HTTP/1.1" 200 18600
+[2022-09-13 14:43:28] INFO "GET /admin/management/employee/4/change/ HTTP/1.1" 200 18600
+[2022-09-13 14:43:28] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:28] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 14:43:34] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 14:43:34] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 14:43:35] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:43:35] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 14:43:35] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:43:35] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 14:44:26] INFO "GET /api/clients/ HTTP/1.1" 200 747
+[2022-09-13 14:44:26] INFO "GET /api/clients/ HTTP/1.1" 200 747
+[2022-09-13 14:44:35] INFO "GET /api/clients/1 HTTP/1.1" 301 0
+[2022-09-13 14:44:35] INFO "GET /api/clients/1 HTTP/1.1" 301 0
+[2022-09-13 14:44:35] INFO "GET /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-13 14:44:35] INFO "GET /api/clients/1/ HTTP/1.1" 200 247
+[2022-09-13 14:45:09] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 14:45:09] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 14:45:30] WARNING Forbidden: /api/clients/
+[2022-09-13 14:45:30] WARNING Forbidden: /api/clients/
+[2022-09-13 14:45:30] WARNING "POST /api/clients/ HTTP/1.1" 403 63
+[2022-09-13 14:45:30] WARNING "POST /api/clients/ HTTP/1.1" 403 63
+[2022-09-13 14:45:39] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-13 14:45:39] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-13 14:45:52] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-13 14:45:52] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-13 14:45:56] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 14:45:56] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 14:46:47] WARNING Forbidden: /api/contracts/
+[2022-09-13 14:46:47] WARNING Forbidden: /api/contracts/
+[2022-09-13 14:46:47] WARNING "GET /api/contracts/ HTTP/1.1" 403 63
+[2022-09-13 14:46:47] WARNING "GET /api/contracts/ HTTP/1.1" 403 63
+[2022-09-13 14:46:52] WARNING Forbidden: /api/contracts/1/
+[2022-09-13 14:46:52] WARNING Forbidden: /api/contracts/1/
+[2022-09-13 14:46:52] WARNING "GET /api/contracts/1/ HTTP/1.1" 403 63
+[2022-09-13 14:46:52] WARNING "GET /api/contracts/1/ HTTP/1.1" 403 63
+[2022-09-13 14:47:05] INFO "GET /api/events/ HTTP/1.1" 200 212
+[2022-09-13 14:47:05] INFO "GET /api/events/ HTTP/1.1" 200 212
+[2022-09-13 14:47:14] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-13 14:47:14] INFO "GET /api/events/ HTTP/1.1" 200 423
+[2022-09-13 14:47:24] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 14:47:24] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 14:47:35] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 14:47:35] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 14:47:56] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 14:47:56] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 14:48:16] INFO "GET /api/clients/?first_name=Client_2 HTTP/1.1" 200 240
+[2022-09-13 14:48:16] INFO "GET /api/clients/?first_name=Client_2 HTTP/1.1" 200 240
+[2022-09-13 14:48:37] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 14:48:37] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 15:03:50] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 15:03:50] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 15:03:50] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 15:03:50] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 15:03:57] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-13 15:03:57] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-13 15:03:58] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:03:58] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:04] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18627
+[2022-09-13 15:04:04] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18627
+[2022-09-13 15:04:05] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:05] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:12] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-13 15:04:12] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-13 15:04:13] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:13] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:16] INFO "GET /admin/management/employee/3/change/ HTTP/1.1" 200 18619
+[2022-09-13 15:04:16] INFO "GET /admin/management/employee/3/change/ HTTP/1.1" 200 18619
+[2022-09-13 15:04:16] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:16] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:40] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-13 15:04:40] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8393
+[2022-09-13 15:04:41] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:41] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:44] INFO "GET /admin/management/employee/4/change/ HTTP/1.1" 200 18607
+[2022-09-13 15:04:44] INFO "GET /admin/management/employee/4/change/ HTTP/1.1" 200 18607
+[2022-09-13 15:04:45] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:45] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:04:48] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 15:04:48] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 15:04:50] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 15:04:50] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 15:04:50] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 15:04:50] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 15:05:00] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2389
+[2022-09-13 15:05:00] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2389
+[2022-09-13 15:05:09] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 15:05:09] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2386
+[2022-09-13 15:05:17] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 15:05:17] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 15:05:17] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 15:05:17] INFO "GET /admin/ HTTP/1.1" 200 5827
+[2022-09-13 15:05:22] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 8607
+[2022-09-13 15:05:22] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 8607
+[2022-09-13 15:05:23] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:05:23] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:05:28] INFO "GET /admin/crm_api/contract/ HTTP/1.1" 200 7979
+[2022-09-13 15:05:28] INFO "GET /admin/crm_api/contract/ HTTP/1.1" 200 7979
+[2022-09-13 15:05:29] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:05:29] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:05:35] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8460
+[2022-09-13 15:05:35] INFO "GET /admin/auth/group/ HTTP/1.1" 200 8460
+[2022-09-13 15:05:36] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:05:36] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:06:43] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 15:06:43] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 15:06:59] INFO "GET /api/clients/ HTTP/1.1" 200 986
+[2022-09-13 15:06:59] INFO "GET /api/clients/ HTTP/1.1" 200 986
+[2022-09-13 15:07:21] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 15:07:21] INFO "GET /api/clients/ HTTP/1.1" 200 249
+[2022-09-13 15:07:54] INFO "GET /api/contracts/ HTTP/1.1" 200 451
+[2022-09-13 15:07:54] INFO "GET /api/contracts/ HTTP/1.1" 200 451
+[2022-09-13 15:08:05] WARNING Forbidden: /api/contracts/
+[2022-09-13 15:08:05] WARNING Forbidden: /api/contracts/
+[2022-09-13 15:08:05] WARNING "GET /api/contracts/ HTTP/1.1" 403 63
+[2022-09-13 15:08:05] WARNING "GET /api/contracts/ HTTP/1.1" 403 63
+[2022-09-13 15:08:21] WARNING Forbidden: /api/contracts/
+[2022-09-13 15:08:21] WARNING Forbidden: /api/contracts/
+[2022-09-13 15:08:21] WARNING "GET /api/contracts/ HTTP/1.1" 403 63
+[2022-09-13 15:08:21] WARNING "GET /api/contracts/ HTTP/1.1" 403 63
+[2022-09-13 15:09:23] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 15:09:23] INFO "GET /api/clients/?first_name=Client_4&email=admin%40irontemple.com HTTP/1.1" 200 260
+[2022-09-13 15:09:36] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 15:09:36] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 15:09:53] INFO "GET /api/clients/?first_name=Client_2 HTTP/1.1" 200 240
+[2022-09-13 15:09:53] INFO "GET /api/clients/?first_name=Client_2 HTTP/1.1" 200 240
+[2022-09-13 15:10:19] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05T06%3A59%3A56.475475Z&amount=500.0 HTTP/1.1" 200 225
+[2022-09-13 15:10:19] INFO "GET /api/contracts/?client__first_name=Client_4&client__email=admin%40irontemple.com&date_created=2022-09-05T06%3A59%3A56.475475Z&amount=500.0 HTTP/1.1" 200 225
+[2022-09-13 15:10:50] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=admin%40irontemple.com&event_date=2022-09-05T07%3A01%3A11Z HTTP/1.1" 200 212
+[2022-09-13 15:10:50] INFO "GET /api/events/?contract__client__first_name=Client_4&contract__client__email=admin%40irontemple.com&event_date=2022-09-05T07%3A01%3A11Z HTTP/1.1" 200 212
+[2022-09-13 15:15:46] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-13 15:15:46] INFO "POST /api/clients/ HTTP/1.1" 201 238
+[2022-09-13 15:16:17] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 15:16:17] INFO "GET /api/clients/ HTTP/1.1" 200 1225
+[2022-09-13 15:16:41] INFO "POST /api/contracts/ HTTP/1.1" 201 224
+[2022-09-13 15:16:41] INFO "POST /api/contracts/ HTTP/1.1" 201 224
+[2022-09-13 15:17:34] INFO "POST /api/events/ HTTP/1.1" 201 210
+[2022-09-13 15:17:34] INFO "POST /api/events/ HTTP/1.1" 201 210
+[2022-09-13 15:18:27] INFO "GET /admin/management/employee/add/ HTTP/1.1" 200 18179
+[2022-09-13 15:18:27] INFO "GET /admin/management/employee/add/ HTTP/1.1" 200 18179
+[2022-09-13 15:18:29] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:18:29] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:19:10] INFO "POST /admin/management/employee/add/ HTTP/1.1" 302 0
+[2022-09-13 15:19:10] INFO "POST /admin/management/employee/add/ HTTP/1.1" 302 0
+[2022-09-13 15:19:11] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8827
+[2022-09-13 15:19:11] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8827
+[2022-09-13 15:19:12] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:19:12] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:19:13] INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2022-09-13 15:19:13] INFO "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[2022-09-13 15:19:31] WARNING Unauthorized: /login/
+[2022-09-13 15:19:31] WARNING Unauthorized: /login/
+[2022-09-13 15:19:31] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-13 15:19:31] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-13 15:19:43] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 15:19:43] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-13 15:19:50] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 15:19:50] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-13 15:19:51] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 15:19:51] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-13 15:19:58] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 15:19:58] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-13 15:19:58] INFO "GET /admin/ HTTP/1.1" 200 6158
+[2022-09-13 15:19:58] INFO "GET /admin/ HTTP/1.1" 200 6158
+[2022-09-13 15:20:03] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:20:03] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:20:04] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:04] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:07] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-13 15:20:07] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-13 15:20:09] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:09] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:29] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:20:29] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:20:30] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:30] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:33] INFO "GET /admin/management/employee/3/change/ HTTP/1.1" 200 18619
+[2022-09-13 15:20:33] INFO "GET /admin/management/employee/3/change/ HTTP/1.1" 200 18619
+[2022-09-13 15:20:35] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:35] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:20:52] WARNING Unauthorized: /login/
+[2022-09-13 15:20:52] WARNING Unauthorized: /login/
+[2022-09-13 15:20:52] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-13 15:20:52] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-13 15:21:01] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:21:01] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:21:02] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:02] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:04] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-13 15:21:04] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-13 15:21:05] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:05] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:17] WARNING Unauthorized: /login/
+[2022-09-13 15:21:17] WARNING Unauthorized: /login/
+[2022-09-13 15:21:17] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-13 15:21:17] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-13 15:21:46] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 8825
+[2022-09-13 15:21:46] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 8825
+[2022-09-13 15:21:47] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:47] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:49] INFO "GET /admin/crm_api/client/add/ HTTP/1.1" 200 12125
+[2022-09-13 15:21:49] INFO "GET /admin/crm_api/client/add/ HTTP/1.1" 200 12125
+[2022-09-13 15:21:50] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:50] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:21:50] INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[2022-09-13 15:21:51] INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[2022-09-13 15:21:50] INFO "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+[2022-09-13 15:21:51] INFO "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[2022-09-13 15:22:06] INFO "POST /admin/crm_api/client/add/ HTTP/1.1" 302 0
+[2022-09-13 15:22:06] INFO "POST /admin/crm_api/client/add/ HTTP/1.1" 302 0
+[2022-09-13 15:22:07] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 9253
+[2022-09-13 15:22:07] INFO "GET /admin/crm_api/client/ HTTP/1.1" 200 9253
+[2022-09-13 15:22:08] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:22:08] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:22:56] WARNING Forbidden: /api/clients/2/
+[2022-09-13 15:22:56] WARNING Forbidden: /api/clients/2/
+[2022-09-13 15:22:56] WARNING "PUT /api/clients/2/ HTTP/1.1" 403 63
+[2022-09-13 15:22:56] WARNING "PUT /api/clients/2/ HTTP/1.1" 403 63
+[2022-09-13 15:23:17] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:23:17] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-13 15:23:18] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-13 15:23:18] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:49:57] INFO Watching for file changes with StatReloader
+[2022-09-14 09:49:57] INFO Watching for file changes with StatReloader
+[2022-09-14 09:50:13] INFO "GET /admin/ HTTP/1.1" 200 6454
+[2022-09-14 09:50:13] INFO "GET /admin/ HTTP/1.1" 200 6454
+[2022-09-14 09:50:15] WARNING Not Found: /favicon.ico
+[2022-09-14 09:50:15] WARNING Not Found: /favicon.ico
+[2022-09-14 09:50:15] WARNING "GET /favicon.ico HTTP/1.1" 404 2459
+[2022-09-14 09:50:15] WARNING "GET /favicon.ico HTTP/1.1" 404 2459
+[2022-09-14 09:50:18] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:50:18] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:50:18] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:18] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:22] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 09:50:22] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 09:50:22] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 09:50:22] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 09:50:22] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:22] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:24] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:50:24] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:50:25] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:25] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:30] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 09:50:30] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 09:50:32] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:50:32] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:50:32] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:50:32] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:50:40] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[2022-09-14 09:50:40] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[2022-09-14 09:50:44] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 09:50:44] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 09:50:44] INFO "GET /admin/ HTTP/1.1" 200 6755
+[2022-09-14 09:50:44] INFO "GET /admin/ HTTP/1.1" 200 6755
+[2022-09-14 09:50:46] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:50:46] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:50:46] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:46] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:50:56] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-14 09:50:56] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-14 09:50:58] INFO Watching for file changes with StatReloader
+[2022-09-14 09:50:58] INFO Watching for file changes with StatReloader
+[2022-09-14 09:53:03] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-14 09:53:03] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\crm_projet\settings.py changed, reloading.
+[2022-09-14 09:53:06] INFO Watching for file changes with StatReloader
+[2022-09-14 09:53:06] INFO Watching for file changes with StatReloader
+[2022-09-14 09:53:22] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:53:22] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:53:25] INFO Watching for file changes with StatReloader
+[2022-09-14 09:53:25] INFO Watching for file changes with StatReloader
+[2022-09-14 09:54:31] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:54:31] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:54:34] INFO Watching for file changes with StatReloader
+[2022-09-14 09:54:34] INFO Watching for file changes with StatReloader
+[2022-09-14 09:55:00] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:55:00] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:55:03] INFO Watching for file changes with StatReloader
+[2022-09-14 09:55:03] INFO Watching for file changes with StatReloader
+[2022-09-14 09:56:01] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:56:01] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:56:04] INFO Watching for file changes with StatReloader
+[2022-09-14 09:56:04] INFO Watching for file changes with StatReloader
+[2022-09-14 09:57:19] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:57:19] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:57:22] INFO Watching for file changes with StatReloader
+[2022-09-14 09:57:22] INFO Watching for file changes with StatReloader
+[2022-09-14 09:57:38] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:57:38] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:57:40] INFO Watching for file changes with StatReloader
+[2022-09-14 09:57:40] INFO Watching for file changes with StatReloader
+[2022-09-14 09:57:50] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-14 09:57:50] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8615
+[2022-09-14 09:57:50] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:50] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:52] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:57:52] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 09:57:52] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:52] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:54] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 09:57:54] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 09:57:54] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 09:57:54] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 09:57:54] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:54] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:57] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 09:57:57] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 09:57:57] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:57:57] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 09:58:03] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 09:58:03] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 09:58:04] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:58:04] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:58:04] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:58:04] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:58:12] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[2022-09-14 09:58:12] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[2022-09-14 09:58:16] ERROR Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\views.py", line 109, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\__init__.py", line 144, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\models.py", line 23, in update_last_login
+    user.save(update_fields=["last_login"])
+TypeError: save() got an unexpected keyword argument 'update_fields'
+[2022-09-14 09:58:16] ERROR Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 441, in login
+    return LoginView.as_view(**defaults)(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\debug.py", line 92, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\views.py", line 90, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\views.py", line 109, in form_valid
+    auth_login(self.request, form.get_user())
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\__init__.py", line 144, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\dispatch\dispatcher.py", line 176, in send
+    return [
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\dispatch\dispatcher.py", line 177, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\auth\models.py", line 23, in update_last_login
+    user.save(update_fields=["last_login"])
+TypeError: save() got an unexpected keyword argument 'update_fields'
+[2022-09-14 09:58:16] ERROR "POST /admin/login/?next=/admin/ HTTP/1.1" 500 157668
+[2022-09-14 09:58:16] ERROR "POST /admin/login/?next=/admin/ HTTP/1.1" 500 157668
+[2022-09-14 09:58:37] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:58:37] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:58:39] INFO Watching for file changes with StatReloader
+[2022-09-14 09:58:39] INFO Watching for file changes with StatReloader
+[2022-09-14 09:58:42] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:58:42] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:58:44] INFO Watching for file changes with StatReloader
+[2022-09-14 09:58:44] INFO Watching for file changes with StatReloader
+[2022-09-14 09:58:47] WARNING Forbidden (CSRF token from POST incorrect.): /admin/login/
+[2022-09-14 09:58:47] WARNING Forbidden (CSRF token from POST incorrect.): /admin/login/
+[2022-09-14 09:58:47] WARNING "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2518
+[2022-09-14 09:58:47] WARNING "POST /admin/login/?next=/admin/ HTTP/1.1" 403 2518
+[2022-09-14 09:58:52] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:58:52] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:58:53] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:58:53] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:58:55] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 09:58:55] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 09:58:55] INFO "GET /admin/ HTTP/1.1" 200 7056
+[2022-09-14 09:58:55] INFO "GET /admin/ HTTP/1.1" 200 7056
+[2022-09-14 09:58:59] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 09:58:59] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 09:59:00] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:59:00] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 09:59:00] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:59:00] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 09:59:03] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[2022-09-14 09:59:03] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 200 2390
+[2022-09-14 09:59:22] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 09:59:22] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 09:59:22] INFO "GET /admin/ HTTP/1.1" 200 7056
+[2022-09-14 09:59:22] INFO "GET /admin/ HTTP/1.1" 200 7056
+[2022-09-14 09:59:48] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:59:48] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 09:59:50] INFO Watching for file changes with StatReloader
+[2022-09-14 09:59:50] INFO Watching for file changes with StatReloader
+[2022-09-14 10:05:23] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:05:23] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:05:27] INFO Watching for file changes with StatReloader
+[2022-09-14 10:05:27] INFO Watching for file changes with StatReloader
+[2022-09-14 10:06:02] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:06:02] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:06:04] INFO Watching for file changes with StatReloader
+[2022-09-14 10:06:04] INFO Watching for file changes with StatReloader
+[2022-09-14 10:06:06] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 10:06:06] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 10:06:06] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:06:06] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:06:16] ERROR Internal Server Error: /admin/management/employee/5/change/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1802, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1225, in save_model
+    obj.save()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py", line 12, in save
+    if check_password(user.password):
+TypeError: check_password() missing 1 required positional argument: 'encoded'
+[2022-09-14 10:06:16] ERROR Internal Server Error: /admin/management/employee/5/change/
+Traceback (most recent call last):
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 686, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1893, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1750, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1802, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\env\lib\site-packages\django\contrib\admin\options.py", line 1225, in save_model
+    obj.save()
+  File "C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py", line 12, in save
+    if check_password(user.password):
+TypeError: check_password() missing 1 required positional argument: 'encoded'
+[2022-09-14 10:06:16] ERROR "POST /admin/management/employee/5/change/ HTTP/1.1" 500 126719
+[2022-09-14 10:06:16] ERROR "POST /admin/management/employee/5/change/ HTTP/1.1" 500 126719
+[2022-09-14 10:07:27] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:07:27] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:07:30] INFO Watching for file changes with StatReloader
+[2022-09-14 10:07:30] INFO Watching for file changes with StatReloader
+[2022-09-14 10:07:36] INFO "GET /admin/ HTTP/1.1" 200 7056
+[2022-09-14 10:07:36] INFO "GET /admin/ HTTP/1.1" 200 7056
+[2022-09-14 10:07:39] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 10:07:39] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 10:07:39] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:07:39] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:07:50] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 10:07:50] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 10:07:50] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 10:07:50] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 10:07:51] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:07:51] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:07:53] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 10:07:53] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 10:07:53] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:07:53] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:07:56] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 10:07:56] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 10:07:57] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 10:07:57] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 10:07:57] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 10:07:57] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 10:08:00] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 10:08:00] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 10:08:00] INFO "GET /admin/ HTTP/1.1" 200 7357
+[2022-09-14 10:08:00] INFO "GET /admin/ HTTP/1.1" 200 7357
+[2022-09-14 10:08:02] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 10:08:02] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18870
+[2022-09-14 10:08:02] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:08:02] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:09:04] WARNING Unauthorized: /login/
+[2022-09-14 10:09:04] WARNING Unauthorized: /login/
+[2022-09-14 10:09:04] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:09:04] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:09:58] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:09:58] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:10:00] INFO Watching for file changes with StatReloader
+[2022-09-14 10:10:00] INFO Watching for file changes with StatReloader
+[2022-09-14 10:10:30] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:10:30] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:10:32] INFO Watching for file changes with StatReloader
+[2022-09-14 10:10:32] INFO Watching for file changes with StatReloader
+[2022-09-14 10:11:07] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:11:07] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:11:08] INFO Watching for file changes with StatReloader
+[2022-09-14 10:11:08] INFO Watching for file changes with StatReloader
+[2022-09-14 10:11:37] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:11:37] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:11:39] INFO Watching for file changes with StatReloader
+[2022-09-14 10:11:39] INFO Watching for file changes with StatReloader
+[2022-09-14 10:11:46] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 10:11:46] INFO "POST /admin/management/employee/5/change/ HTTP/1.1" 302 0
+[2022-09-14 10:11:47] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 10:11:47] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8829
+[2022-09-14 10:11:47] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:11:47] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:11:49] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 10:11:49] INFO "GET /admin/management/employee/5/change/ HTTP/1.1" 200 18947
+[2022-09-14 10:11:49] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:11:49] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:11:52] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 10:11:52] INFO "POST /admin/logout/ HTTP/1.1" 200 1549
+[2022-09-14 10:11:53] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 10:11:53] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 10:11:53] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 10:11:53] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 10:11:56] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 10:11:56] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 10:11:56] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 10:11:56] INFO "GET /admin/ HTTP/1.1" 302 0
+[2022-09-14 10:11:56] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 10:11:56] INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+[2022-09-14 10:12:03] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-14 10:12:03] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-14 10:12:34] WARNING Unauthorized: /login/
+[2022-09-14 10:12:34] WARNING Unauthorized: /login/
+[2022-09-14 10:12:34] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:12:34] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:12:41] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:12:41] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:12:43] INFO Watching for file changes with StatReloader
+[2022-09-14 10:12:43] INFO Watching for file changes with StatReloader
+[2022-09-14 10:12:45] WARNING Unauthorized: /login/
+[2022-09-14 10:12:45] WARNING Unauthorized: /login/
+[2022-09-14 10:12:45] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:12:45] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:12:55] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 10:12:55] INFO "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[2022-09-14 10:12:55] INFO "GET /admin/ HTTP/1.1" 200 8903
+[2022-09-14 10:12:55] INFO "GET /admin/ HTTP/1.1" 200 8903
+[2022-09-14 10:12:58] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8608
+[2022-09-14 10:12:58] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8608
+[2022-09-14 10:12:58] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:12:58] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:13:00] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18620
+[2022-09-14 10:13:00] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18620
+[2022-09-14 10:13:00] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:13:00] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:13:14] INFO "POST /admin/management/employee/2/change/ HTTP/1.1" 302 0
+[2022-09-14 10:13:14] INFO "POST /admin/management/employee/2/change/ HTTP/1.1" 302 0
+[2022-09-14 10:13:15] INFO - Broken pipe from ('127.0.0.1', 56311)
+[2022-09-14 10:13:15] INFO - Broken pipe from ('127.0.0.1', 56311)
+[2022-09-14 10:13:15] INFO "POST /admin/management/employee/2/change/ HTTP/1.1" 302 0
+[2022-09-14 10:13:15] INFO "POST /admin/management/employee/2/change/ HTTP/1.1" 302 0
+[2022-09-14 10:13:15] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8981
+[2022-09-14 10:13:15] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8981
+[2022-09-14 10:13:15] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:13:15] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:13:20] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18543
+[2022-09-14 10:13:20] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18543
+[2022-09-14 10:13:20] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:13:20] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:16:33] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:16:33] INFO C:\Users\Ferreira\Desktop\Openclassroom - Développeur Python\Projet 12 - Développez une architecture back-end sécurisée en utilisant Django ORM\Projet_12\crm_projet\management\models.py changed, reloading.
+[2022-09-14 10:16:36] INFO Watching for file changes with StatReloader
+[2022-09-14 10:16:36] INFO Watching for file changes with StatReloader
+[2022-09-14 10:16:39] WARNING Unauthorized: /login/
+[2022-09-14 10:16:39] WARNING Unauthorized: /login/
+[2022-09-14 10:16:39] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:16:39] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:16:41] WARNING Unauthorized: /login/
+[2022-09-14 10:16:41] WARNING Unauthorized: /login/
+[2022-09-14 10:16:41] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:16:41] WARNING "POST /login/ HTTP/1.1" 401 63
+[2022-09-14 10:16:46] INFO "POST /admin/management/employee/2/change/ HTTP/1.1" 302 0
+[2022-09-14 10:16:46] INFO "POST /admin/management/employee/2/change/ HTTP/1.1" 302 0
+[2022-09-14 10:16:46] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8821
+[2022-09-14 10:16:46] INFO "GET /admin/management/employee/ HTTP/1.1" 200 8821
+[2022-09-14 10:16:47] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:16:47] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:16:49] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18620
+[2022-09-14 10:16:49] INFO "GET /admin/management/employee/2/change/ HTTP/1.1" 200 18620
+[2022-09-14 10:16:49] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:16:49] INFO "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[2022-09-14 10:16:53] INFO "POST /login/ HTTP/1.1" 200 483
+[2022-09-14 10:16:53] INFO "POST /login/ HTTP/1.1" 200 483
